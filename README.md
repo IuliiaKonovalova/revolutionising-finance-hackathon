@@ -3,6 +3,7 @@
 # revolutionising-finance-hackathon
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 * **test**
 <<<<<<< HEAD
@@ -139,4 +140,11 @@ Our team is made up of a wonderful group of people from around the world - all o
 =======
 Just a test to see if this only updates on my branch and not main.
 >>>>>>> 7662129 (testing commit to my own development branch)
+<<<<<<< HEAD
 >>>>>>> f187d38 (testing commit to my own development branch)
+=======
+=======
+
+* **test**
+>>>>>>> 227b4ee (test)
+>>>>>>> 2d34c19 (test)
