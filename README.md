@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # revolutionising-finance-hackathon
 
 
@@ -129,3 +130,6 @@ Our team is made up of a wonderful group of people from around the world - all o
     - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
     - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
 >>>>>>> 003dcac (Create grid content layout with images and placeholder content)
+=======
+# revolutionising-finance-hackathon
+>>>>>>> 6407ef0 (testing commit to my own development branch)
