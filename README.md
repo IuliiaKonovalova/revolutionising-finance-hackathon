@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> eeecd7e (testing commit to my own development branch)
 # revolutionising-finance-hackathon
 
 <<<<<<< HEAD
@@ -173,5 +176,14 @@ Just a test to see if this only updates on my branch and not main.
     - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
     - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
 >>>>>>> 003dcac (Create grid content layout with images and placeholder content)
+<<<<<<< HEAD
 >>>>>>> b836a8d (Create grid content layout with images and placeholder content)
+<<<<<<< HEAD
 >>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
+=======
+=======
+=======
+# revolutionising-finance-hackathon
+>>>>>>> 6407ef0 (testing commit to my own development branch)
+>>>>>>> fc7d2f8 (testing commit to my own development branch)
+>>>>>>> eeecd7e (testing commit to my own development branch)
