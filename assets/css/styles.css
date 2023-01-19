@@ -49,4 +49,15 @@ h3 {
 .grid-margin-top {
   margin-top: 3rem;
 }
+<<<<<<< HEAD
 >>>>>>> 003dcac (Create grid content layout with images and placeholder content)
+=======
+
+.image-margin-top {
+  margin-top: 25px;
+}
+
+.bottom-grid-margin-top {
+  margin-top: 6rem;
+}
+>>>>>>> d696b18 (Create 'Get started' button and fix margin spacing)
