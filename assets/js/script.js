@@ -18,8 +18,17 @@ let buttonCalculate = document.getElementById("button-calculate");
 =======
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
+<<<<<<< HEAD
 // gets the api for countries
+<<<<<<< HEAD
 >>>>>>> 3bdcc4b (trying to solve problem)
+=======
+=======
+let buttonCalculate = document.getElementById("button-calculate");
+// gets the api for countries to be picked by user
+// the api is non active just a dummy 
+>>>>>>> 7ed1e97 (Add event listener on clalculate button)
+>>>>>>> ba104f7 (Add event listener on clalculate button)
 fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
   .then(response => response.json())
   .then(data => {
@@ -118,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
 >>>>>>> 3bdcc4b (trying to solve problem)
 
 // function to calc and convert
-function convertCurrency() {
+const calculateFinal = function() {
   // users current amount of money
   let money = document.getElementById("money").value;
 
@@ -147,7 +156,15 @@ function convertCurrency() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 81d968a (add JS logic to display/calc HTML)
 >>>>>>> a50dea7 (add JS logic to display/calc HTML)
 =======
 >>>>>>> 84e5f4f (test)
+=======
+=======
+buttonCalculate.addEventListener("click", calculateFinal);
+
+// test
+>>>>>>> 7ed1e97 (Add event listener on clalculate button)
+>>>>>>> ba104f7 (Add event listener on clalculate button)
