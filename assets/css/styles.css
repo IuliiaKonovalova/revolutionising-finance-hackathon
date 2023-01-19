@@ -10,10 +10,10 @@ main {
   /* background-color: rgb(71, 255, 129); */
 }
 
-
 main {
   flex: 1 0 auto;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2c56da1 (Fix styles for body)
 =======
@@ -47,3 +47,9 @@ h3 {
   margin-left: 15px;
 }
 >>>>>>> c7b7aa1 (add styling to form html)
+=======
+
+.grid-margin-top {
+  margin-top: 3rem;
+}
+>>>>>>> 003dcac (Create grid content layout with images and placeholder content)
