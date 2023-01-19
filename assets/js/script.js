@@ -1,23 +1,42 @@
+let fromCountrySelect = document.getElementById("fromCountry");
+let toCountrySelect = document.getElementById("toCountry");
+// gets the api for countries
+fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
+  .then(response => response.json())
+  .then(data => {
+    let countries = data.countries;
+    for (let country in countries) {
+      let option = document.createElement("option");
+      option.value = country;
+      option.text = countries[country];
+      fromCountrySelect.add(option);
+      toCountrySelect.add(option.cloneNode(true));
+    }
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
+// function to calc and convert
 function convertCurrency() {
-  // Where the user selects country
-  let fromCountry = document.getElementById("fromCountry").value;
-
-  // How much money the user has to spend
+  // users current amount of money
   let money = document.getElementById("money").value;
 
-  // where the user wants to go
-  let toCountry = document.getElementById("toCountry").value;
+  // where user is located
+  let fromCountry = fromCountrySelect.value;
+
+  // get users location
+  let toCountry = toCountrySelect.value;
 
   // Use API to retrieve exchange rate between countries
-  fetch(`https://api.exchangerate-api.com/v4/latest/${fromCountry}`)
+  fetch(`https://api.exchangerate-api.com/v4/latest/${fromCountry}?apikey=your_api_key`)
     .then(response => response.json())
     .then(data => {
-      // calculation
+      // Calculation
       let exchangeRate = data.rates[toCountry];
       let travelMoney = money * exchangeRate;
 
-      // Display result to user
+      // result
       let result = `You would have ${travelMoney} ${toCountry} in ${toCountry}.`;
       document.getElementById("result").innerHTML = result;
     })
