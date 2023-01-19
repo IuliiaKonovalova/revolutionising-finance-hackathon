@@ -46,4 +46,3 @@ function convertCurrency() {
     });
 }
 
->>>>>>> 81d968a (add JS logic to display/calc HTML)
