@@ -44,23 +44,39 @@
     </nav>
   </header>
   <!-- Main section -->
-  <main class="main">
-    <form>
-      <label>Country of origin:
-        <select id="fromCountry"></select>
-      </label>
-      <br>
-      <label>Amount of money:
-        <input type="number" id="money" placeholder="Enter the amount of money you have">
-      </label>
-      <br>
-      <label>Travel country:
-        <select id="toCountry"></select>
-      </label>
-      <br>
-      <button type="button" onclick="convertCurrency()">Convert</button>
-    </form>
-    <div id="result"></div>
+    <main class="main">
+    <div class="row valign-wrapper">
+        <div class="col s8 offset-s2">
+            <div class="card green lighten-1 z-depth-4">
+                <div class="card-content black-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                    <form>
+                        <div class="card-content">
+                            <label class="label-style" for="fromCountry">Select your ountry of origin</label>
+                            <select id="fromCountry" class="browser-default col s4"></select>
+                        </div>
+                        <div class="card-content">
+                            <label class="label-style" for="toCountry">Where are you going?</label>
+                            <select id="toCountry" class="browser-default col s4"></select>
+                        </div>
+                        <div class="card-content">
+                            <label for="money" class="active"></label>
+                            <input type="number" id="money" placeholder="Enter the amount of money you want to spend">
+                        </div>
+                        <div class="card-content">
+                            <button class="waves-effect green darken-3 waves-light btn-large" type="button" id="button-calculate">Convert</button>
+                        </div>
+                    </form>
+                    <div class="">
+                        <h3>You Have: <span id="result"></span></h3>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
 
   </main>
 
