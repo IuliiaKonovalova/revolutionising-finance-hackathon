@@ -146,5 +146,8 @@ function convertCurrency() {
     });
 }
 
+<<<<<<< HEAD
 >>>>>>> 81d968a (add JS logic to display/calc HTML)
 >>>>>>> a50dea7 (add JS logic to display/calc HTML)
+=======
+>>>>>>> 84e5f4f (test)
