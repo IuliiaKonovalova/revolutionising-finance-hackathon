@@ -12,6 +12,36 @@ main {
   flex: 1 0 auto;
 }
 
+
+.card {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-style {
+  color: black;
+  padding: 5px;
+  font-size: large;
+  margin: 5px;
+}
+
+label {
+  color: black;
+  font-size: large;
+}
+
+.btn-large {
+  margin-top: 10px;
+}
+
+::placeholder { 
+  color: black;
+}
+
+h3 {
+  margin-left: 15px;
+}
+
 .grid-margin-top {
   margin-top: 3rem;
 }
@@ -23,3 +53,4 @@ main {
 .bottom-grid-margin-top {
   margin-top: 6rem;
 }
+
