@@ -2,6 +2,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 00491b4 (add styling to form html)
 
 
 
@@ -10,12 +13,15 @@
 
 
 
+<<<<<<< HEAD
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
 let buttonCalculate = document.getElementById("button-calculate");
 // gets the api for countries to be picked by user
 // the api is non active just a dummy 
 =======
+=======
+>>>>>>> 00491b4 (add styling to form html)
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
 <<<<<<< HEAD

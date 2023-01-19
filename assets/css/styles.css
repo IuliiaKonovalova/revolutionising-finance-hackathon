@@ -26,9 +26,16 @@ main {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2c56da1 (Fix styles for body)
 =======
+=======
 
+<<<<<<< HEAD
+>>>>>>> dad5480 (add styling to form html)
+
+=======
+>>>>>>> 00491b4 (add styling to form html)
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -56,6 +63,7 @@ label {
 
 h3 {
   margin-left: 15px;
+<<<<<<< HEAD
 }
 >>>>>>> c7b7aa1 (add styling to form html)
 =======
@@ -74,4 +82,11 @@ h3 {
 .bottom-grid-margin-top {
   margin-top: 6rem;
 }
+<<<<<<< HEAD
 >>>>>>> d696b18 (Create 'Get started' button and fix margin spacing)
+=======
+
+=======
+}
+>>>>>>> 00491b4 (add styling to form html)
+>>>>>>> dad5480 (add styling to form html)
