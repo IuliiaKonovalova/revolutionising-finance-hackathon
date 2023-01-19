@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+=======
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  /* background-color: rgb(71, 255, 129); */
+}
+
+
+main {
+  flex: 1 0 auto;
+}
+>>>>>>> 2c56da1 (Fix styles for body)
