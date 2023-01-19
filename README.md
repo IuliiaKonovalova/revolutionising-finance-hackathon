@@ -61,13 +61,14 @@ Green color was chosen as the main color for the project due to the the fact tha
 ### Typography
 
 
-## Imagery
+### Imagery
 
 
----
 
 
 ### Wireframes
+
+[Wireframes](documentation/wireframes/hackathon_jan_20223.pdf)
 
 
 ---
