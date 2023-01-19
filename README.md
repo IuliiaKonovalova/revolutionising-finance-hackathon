@@ -55,7 +55,9 @@
 
 ### Color Scheme
 
+Green color was chosen as the main color for the project due to the the fact that it is associated with nature and positivity. Green can inspire feelings of harmony, growth, safety, and success. It’s also a calming color that makes people feel safe and comfortable which is highly important when it comes to finance.
 
+![Color palette](documentation/design/color_palette.png)
 ### Typography
 
 
