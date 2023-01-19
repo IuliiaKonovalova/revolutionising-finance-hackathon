@@ -32,10 +32,16 @@ main {
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dad5480 (add styling to form html)
+=======
+<<<<<<< HEAD
+>>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
 
 =======
 >>>>>>> 00491b4 (add styling to form html)
+=======
+>>>>>>> b836a8d (Create grid content layout with images and placeholder content)
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -64,6 +70,7 @@ label {
 h3 {
   margin-left: 15px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> c7b7aa1 (add styling to form html)
 =======
@@ -89,4 +96,15 @@ h3 {
 =======
 }
 >>>>>>> 00491b4 (add styling to form html)
+<<<<<<< HEAD
 >>>>>>> dad5480 (add styling to form html)
+=======
+=======
+}
+=======
+.grid-margin-top {
+  margin-top: 3rem;
+}
+>>>>>>> 003dcac (Create grid content layout with images and placeholder content)
+>>>>>>> b836a8d (Create grid content layout with images and placeholder content)
+>>>>>>> 2de7544 (Create grid content layout with images and placeholder content)

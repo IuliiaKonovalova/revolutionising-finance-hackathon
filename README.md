@@ -5,10 +5,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 * **test**
 <<<<<<< HEAD
 >>>>>>> fb64797 (test)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
 
 ## Image Credits
 
@@ -18,8 +22,14 @@
     - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
     - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 003dcac (Create grid content layout with images and placeholder content)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b836a8d (Create grid content layout with images and placeholder content)
+>>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
 ## About 
 
 ---
@@ -136,6 +146,7 @@ Our team is made up of a wonderful group of people from around the world - all o
 - Iuliia Konovalova - [Github](https://github.com/IuliiaKonovalova)
 - Keiron Liam Chaudhry - [Github](https://github.com/keironchaudhry)
 - Richard Bailey [Github](https://github.com/Rsrbai)
+<<<<<<< HEAD
 
 =======
 Just a test to see if this only updates on my branch and not main.
@@ -147,4 +158,20 @@ Just a test to see if this only updates on my branch and not main.
 
 * **test**
 >>>>>>> 227b4ee (test)
+<<<<<<< HEAD
 >>>>>>> 2d34c19 (test)
+=======
+=======
+=======
+* **test**
+
+## Image Credits
+
+* For images displayed in grid contents:
+
+    [Pexels](https://www.pexels.com/):
+    - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
+    - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
+>>>>>>> 003dcac (Create grid content layout with images and placeholder content)
+>>>>>>> b836a8d (Create grid content layout with images and placeholder content)
+>>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
