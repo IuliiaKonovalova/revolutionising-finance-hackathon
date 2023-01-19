@@ -43,9 +43,34 @@
   </header>
   <!-- Main section -->
   <main class="main">
-
     Body
-
+    <div class="container">
+      <h1 class="center-align">Currency Converter</h1>
+      <form id="conversion-form" class="row">
+          <div class="input-field col s12">
+              <input type="number" id="amount" name="amount">
+              <label for="amount">Amount</label>
+          </div>
+          <div class="input-field col s6">
+              <select id="fromCurrency" name="fromCurrency">
+                  <option value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                  <option value="GBP">GBP</option>
+              </select>
+              <label for="fromCurrency">From Currency</label>
+          </div>
+          <div class="input-field col s6">
+              <select id="toCurrency" name="toCurrency">
+                  <option value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                  <option value="GBP">GBP</option>
+              </select>
+              <label for="toCurrency">To Currency</label>
+          </div>
+          <div class="center-align col s12">
+              <button class="btn" type="submit">Convert</button>
+          </div>
+      </form>
   </main>
 
   <!--Footer-->
