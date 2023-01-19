@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
 let buttonCalculate = document.getElementById("button-calculate");

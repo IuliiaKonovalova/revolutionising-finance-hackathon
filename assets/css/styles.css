@@ -14,4 +14,36 @@ main {
 main {
   flex: 1 0 auto;
 }
+<<<<<<< HEAD
 >>>>>>> 2c56da1 (Fix styles for body)
+=======
+
+.card {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-style {
+  color: black;
+  padding: 5px;
+  font-size: large;
+  margin: 5px;
+}
+
+label {
+  color: black;
+  font-size: large;
+}
+
+.btn-large {
+  margin-top: 10px;
+}
+
+::placeholder { 
+  color: black;
+}
+
+h3 {
+  margin-left: 15px;
+}
+>>>>>>> c7b7aa1 (add styling to form html)
