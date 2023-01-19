@@ -1,5 +1,6 @@
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
+let buttonCalculate = document.getElementById("button-calculate");
 // gets the api for countries to be picked by user
 // the api is non active just a dummy 
 fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
@@ -19,7 +20,7 @@ fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
   });
 
 // function to calc and convert
-function convertCurrency() {
+const calculateFinal = function() {
   // users current amount of money
   let money = document.getElementById("money").value;
 
@@ -46,4 +47,7 @@ function convertCurrency() {
       console.log(error);
     });
 }
+
+buttonCalculate.addEventListener("click", calculateFinal);
+
 // test
