@@ -1,6 +1,14 @@
 # revolutionising-finance-hackathon
 
 
+
+## Image Credits
+
+* For images displayed in grid contents:
+
+    [Pexels](https://www.pexels.com/):
+    - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
+    - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
 ## About 
 
 ---
@@ -117,3 +125,4 @@ Our team is made up of a wonderful group of people from around the world - all o
 - Iuliia Konovalova - [Github](https://github.com/IuliiaKonovalova)
 - Keiron Liam Chaudhry - [Github](https://github.com/keironchaudhry)
 - Richard Bailey [Github](https://github.com/Rsrbai)
+
