@@ -8,7 +8,18 @@ main {
   /* background-color: rgb(71, 255, 129); */
 }
 
-
 main {
   flex: 1 0 auto;
+}
+
+.grid-margin-top {
+  margin-top: 3rem;
+}
+
+.image-margin-top {
+  margin-top: 25px;
+}
+
+.bottom-grid-margin-top {
+  margin-top: 6rem;
 }
