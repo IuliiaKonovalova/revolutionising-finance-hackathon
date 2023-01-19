@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -14,6 +15,11 @@ let toCountrySelect = document.getElementById("toCountry");
 let buttonCalculate = document.getElementById("button-calculate");
 // gets the api for countries to be picked by user
 // the api is non active just a dummy 
+=======
+let fromCountrySelect = document.getElementById("fromCountry");
+let toCountrySelect = document.getElementById("toCountry");
+// gets the api for countries
+>>>>>>> 3bdcc4b (trying to solve problem)
 fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
   .then(response => response.json())
   .then(data => {
@@ -29,6 +35,7 @@ fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
   .catch(error => {
     console.log(error);
   });
+<<<<<<< HEAD
 
 // function to calc and convert
 const calculateFinal = function() {
@@ -107,6 +114,8 @@ document.addEventListener('DOMContentLoaded', function() {
 =======
 =======
 >>>>>>> df57c49 (add function for selecting the country from dropdownbar)
+=======
+>>>>>>> 3bdcc4b (trying to solve problem)
 
 // function to calc and convert
 function convertCurrency() {
@@ -120,6 +129,7 @@ function convertCurrency() {
   let toCountry = toCountrySelect.value;
 
   // Use API to retrieve exchange rate between countries
+  // the api is non active just a dummy 
   fetch(`https://api.exchangerate-api.com/v4/latest/${fromCountry}?apikey=your_api_key`)
     .then(response => response.json())
     .then(data => {
