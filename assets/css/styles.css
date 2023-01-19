@@ -16,6 +16,7 @@ main {
   flex: 1 0 auto;
 }
 
+<<<<<<< HEAD
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -44,3 +45,8 @@ label {
 h3 {
   margin-left: 15px;
 }
+=======
+.grid-margin-top {
+  margin-top: 3rem;
+}
+>>>>>>> 003dcac (Create grid content layout with images and placeholder content)
