@@ -1,6 +1,12 @@
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
+<<<<<<< HEAD
 // gets the api for countries
+=======
+let buttonCalculate = document.getElementById("button-calculate");
+// gets the api for countries to be picked by user
+// the api is non active just a dummy 
+>>>>>>> 7ed1e97 (Add event listener on clalculate button)
 fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
   .then(response => response.json())
   .then(data => {
@@ -18,7 +24,7 @@ fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
   });
 
 // function to calc and convert
-function convertCurrency() {
+const calculateFinal = function() {
   // users current amount of money
   let money = document.getElementById("money").value;
 
@@ -46,3 +52,9 @@ function convertCurrency() {
     });
 }
 
+<<<<<<< HEAD
+=======
+buttonCalculate.addEventListener("click", calculateFinal);
+
+// test
+>>>>>>> 7ed1e97 (Add event listener on clalculate button)
