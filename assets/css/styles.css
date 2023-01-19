@@ -15,3 +15,11 @@ main {
 .grid-margin-top {
   margin-top: 3rem;
 }
+
+.image-margin-top {
+  margin-top: 25px;
+}
+
+.bottom-grid-margin-top {
+  margin-top: 6rem;
+}
