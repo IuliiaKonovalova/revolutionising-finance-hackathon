@@ -70,7 +70,8 @@ form {
 }
 
 .block__input select,
-.block__currency--input {
+.block__currency--input,
+.block__money--input {
   width: 100% !important;
   border-radius: var(--br) !important;
   background-color: var(--clr-text--200) !important;
@@ -84,6 +85,20 @@ form {
 .block__currency--input:not(:placeholder-shown) {
   color: var(--clr-accent--900);
   text-align: center;
+}
+
+.block__money--input {
+  padding-left: 1% !important;
+  max-width: 99% !important;
+}
+
+.block__money--input::placeholder {
+  color: var(--clr-text--300);
+  padding-left: 1em;
+}
+
+.block__money--input:not(:placeholder-shown) {
+  padding-left: 1em;
 }
 
 /* style .block__currency--input if disabled */
@@ -127,4 +142,12 @@ h3 {
 
 .bottom-grid-margin-top {
   margin-top: 6rem;
+}
+
+/* media */
+@media (min-width: 992px) {
+  /* .block__money--input {
+    padding-left: 1em !important;
+    max-width: 97% !important;
+  } */
 }
