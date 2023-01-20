@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 00491b4 (add styling to form html)
 =======
@@ -246,3 +247,5 @@ document.addEventListener('DOMContentLoaded', function() {
 =======
 
 >>>>>>> d87616d (update)
+=======
+>>>>>>> b7fb23a (removing everything)

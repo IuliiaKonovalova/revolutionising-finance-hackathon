@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> eeecd7e (testing commit to my own development branch)
+=======
+>>>>>>> 0d5fb62 (removing everything)
 # revolutionising-finance-hackathon
 
 <<<<<<< HEAD
@@ -186,4 +189,9 @@ Just a test to see if this only updates on my branch and not main.
 # revolutionising-finance-hackathon
 >>>>>>> 6407ef0 (testing commit to my own development branch)
 >>>>>>> fc7d2f8 (testing commit to my own development branch)
+<<<<<<< HEAD
 >>>>>>> eeecd7e (testing commit to my own development branch)
+=======
+=======
+>>>>>>> b7fb23a (removing everything)
+>>>>>>> 0d5fb62 (removing everything)
