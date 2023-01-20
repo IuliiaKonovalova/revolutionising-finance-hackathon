@@ -155,6 +155,10 @@ h3 {
   margin-top: 6rem;
 }
 
+.center-align {
+  margin-top: 2.5rem;
+}
+
 /* media */
 @media (min-width: 992px) {
   /* .block__money--input {
