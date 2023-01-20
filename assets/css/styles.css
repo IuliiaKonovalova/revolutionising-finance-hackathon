@@ -12,6 +12,15 @@ main {
   flex: 1 0 auto;
 }
 
+/* Navbar classes */ 
+
+.brand-logo {
+  margin-left: 2rem;
+}
+
+.sub-title li {
+  margin-left: 8rem;
+}
 
 .card {
   margin-top: 5%;
@@ -41,6 +50,8 @@ label {
 h3 {
   margin-left: 15px;
 }
+
+/* Grid Content */
 
 .grid-margin-top {
   margin-top: 3rem;
