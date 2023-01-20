@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0d5fb62 (removing everything)
 body {
   display: flex;
   min-height: 100vh;
@@ -10,53 +5,13 @@ body {
 }
 
 main {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* background-color: rgb(71, 255, 129); */
-=======
-  background-color: white;
->>>>>>> 6cc5b72 (Javascript functionality and trying to figure out the html)
-=======
-=======
->>>>>>> 093b6f9 (Javascript functionality and trying to figure out the html)
-  background-color: white;
-=======
-  /* background-color: rgb(71, 255, 129); */
->>>>>>> 2c56da1 (Fix styles for body)
-<<<<<<< HEAD
->>>>>>> fa90e64 (Fix styles for body)
-=======
-=======
-  /* background-color: rgb(71, 255, 129); */
-=======
-  background-color: white;
->>>>>>> 6cc5b72 (Javascript functionality and trying to figure out the html)
->>>>>>> d371c6e (Javascript functionality and trying to figure out the html)
->>>>>>> 093b6f9 (Javascript functionality and trying to figure out the html)
+background-color: rgb(71, 255, 129);
 }
 
 main {
   flex: 1 0 auto;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2c56da1 (Fix styles for body)
-=======
-=======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> dad5480 (add styling to form html)
-=======
-<<<<<<< HEAD
->>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
-
-=======
->>>>>>> 00491b4 (add styling to form html)
-=======
->>>>>>> b836a8d (Create grid content layout with images and placeholder content)
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -84,18 +39,12 @@ label {
 
 h3 {
   margin-left: 15px;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
->>>>>>> c7b7aa1 (add styling to form html)
-=======
+
 
 .grid-margin-top {
   margin-top: 3rem;
 }
-<<<<<<< HEAD
->>>>>>> 003dcac (Create grid content layout with images and placeholder content)
-=======
 
 .image-margin-top {
   margin-top: 25px;
@@ -104,19 +53,7 @@ h3 {
 .bottom-grid-margin-top {
   margin-top: 6rem;
 }
-<<<<<<< HEAD
->>>>>>> d696b18 (Create 'Get started' button and fix margin spacing)
-=======
 
-=======
-}
->>>>>>> 00491b4 (add styling to form html)
-<<<<<<< HEAD
->>>>>>> dad5480 (add styling to form html)
-=======
-=======
-}
-=======
 .grid-margin-top {
   margin-top: 3rem;
 }
