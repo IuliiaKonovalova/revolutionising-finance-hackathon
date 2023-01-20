@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -45,7 +44,7 @@ const calculateFinal = function() {
 
   // Use API to retrieve exchange rate between countries
   // the api is non active just a dummy 
-  fetch(`https://api.exchangerate-api.com/v4/latest/${fromCountry}?apikey=your_api_key`)
+  fetch(`https://api.exchangerate-api.com/v4/latest/${fromCountry}?apikey=4e21e51b0599ed099d6b98c4`)
     .then(response => response.json())
     .then(data => {
       // Calculation
@@ -65,11 +64,16 @@ const calculateFinal = function() {
 =======
 buttonCalculate.addEventListener("click", calculateFinal);
 
+
+
 // test
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ed1e97 (Add event listener on clalculate button)
 =======
 =======
+=======
+>>>>>>> 4b291ce (merge)
 // API endpoint for getting exchange rates
 const API_ENDPOINT = "https://api.exchangerate-api.com/v4/latest";
 
@@ -106,5 +110,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems, options);
   });
+<<<<<<< HEAD
 >>>>>>> 6cc5b72 (Javascript functionality and trying to figure out the html)
 >>>>>>> d371c6e (Javascript functionality and trying to figure out the html)
+=======
+>>>>>>> 4b291ce (merge)
