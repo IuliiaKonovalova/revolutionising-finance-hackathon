@@ -3,6 +3,11 @@ const apiSecret = "6lZAsTw9hqhPPvgv";
 const grantType = "client_credentials";
 
 
+const amadeusInput = document.getElementById("amadeus-input");
+const amadeusButton = document.getElementById("amadeus-button");
+const amadeusResult = document.getElementById("amadeus-result");
+
+
 
 
 
