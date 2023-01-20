@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 00491b4 (add styling to form html)
 =======
@@ -253,3 +254,5 @@ document.addEventListener('DOMContentLoaded', function() {
 =======
 git p
 >>>>>>> b6e97a5 (empty)
+=======
+>>>>>>> 9498c68 (nothing)
