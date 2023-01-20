@@ -29,3 +29,32 @@ const obtainToken = async () => {
 };
 
 
+const locationPois = async (lat, long) => {
+  const amadeusUrl = `https://test.api.amadeus.com/v1/reference-data/locations/pois?latitude=${lat}&longitude=${long}&radius=5`
+  const amadeusHeaders = {
+    "Authorization": `Bearer ${await obtainToken()}`,
+  };
+  const amadeusResponse = await fetch(amadeusUrl, {
+    method: "GET",
+    headers: amadeusHeaders,
+  });
+  const amadeusData = await amadeusResponse.json();
+  console.log(amadeusData.data);
+  return amadeusData.data;
+};
+
+const locations = locationPois(51.5072, -0.1275);
+
+
+
+// create a fetch request to the API
+const amadeusFetch = function() {
+  // get data from the input field
+  const amadeusInputValue = amadeusInput.value;
+
+
+}
+
+
+// add event listener to the button
+amadeusButton.addEventListener("click", amadeusFetch);
