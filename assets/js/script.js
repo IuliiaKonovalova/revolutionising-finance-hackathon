@@ -169,17 +169,21 @@ const calculateFinal = function() {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 81d968a (add JS logic to display/calc HTML)
 >>>>>>> a50dea7 (add JS logic to display/calc HTML)
 =======
 >>>>>>> 84e5f4f (test)
 =======
 =======
+=======
+>>>>>>> d87616d (update)
 buttonCalculate.addEventListener("click", calculateFinal);
 
 
 
 // test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ed1e97 (Add event listener on clalculate button)
@@ -190,6 +194,9 @@ buttonCalculate.addEventListener("click", calculateFinal);
 =======
 =======
 >>>>>>> 4b291ce (merge)
+=======
+
+>>>>>>> d87616d (update)
 // API endpoint for getting exchange rates
 const API_ENDPOINT = "https://api.exchangerate-api.com/v4/latest";
 
@@ -227,6 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Dropdown.init(elems, options);
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cc5b72 (Javascript functionality and trying to figure out the html)
 >>>>>>> d371c6e (Javascript functionality and trying to figure out the html)
 <<<<<<< HEAD
@@ -235,3 +243,6 @@ document.addEventListener('DOMContentLoaded', function() {
 =======
 >>>>>>> 4b291ce (merge)
 >>>>>>> e641713 (merge)
+=======
+
+>>>>>>> d87616d (update)
