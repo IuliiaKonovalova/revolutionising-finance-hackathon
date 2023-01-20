@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+
+:root {
+  --clr-accent--100: #f8fff8;
+  --clr-accent--200: #f0fdf0;
+  --clr-accent--500: #a5d6a7;
+  --clr-accent--900: #3ba44f;
+  --clr-text--100: #ffffff;
+  --clr-text--200: #e7e7e7;
+  --clr-text--300: #898989;
+  --clr-text--500: #363636;
+  --clr-text--900: #191919;
+  --fs: calc(60% + 0.8vmin);
+  --ff-primary: 'Lato', sans-serif;
+  --br: 0.5em;
+  --br--links: 0.2em;
+  --br-buttons: 0.2em;
+}
+
+/*------ Global Settings------*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: var(--fs);
+  font-family: var(--ff-primary);
+  color: var(--clr-text--900);
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -5,27 +41,91 @@ body {
 }
 
 main {
-background-color: rgb(71, 255, 129);
+  /* background-color: rgb(71, 255, 129); */
 }
 
 main {
   flex: 1 0 auto;
 }
 
+/* Navbar classes */ 
+
+.brand-logo {
+  margin-left: 2rem;
+}
+
+.sub-title li {
+  margin-left: 8rem;
+}
+
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
+  border-radius: var(--br);
 }
 
-.label-style {
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.block__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: start;
+  width: 80%;
+}
+
+.block__input select,
+.block__currency--input,
+.block__money--input {
+  width: 100% !important;
+  border-radius: var(--br) !important;
+  background-color: var(--clr-text--200) !important;
+}
+
+.block__currency--input {
+  border: none;
+  font-weight: 900;
+}
+
+.block__currency--input:not(:placeholder-shown) {
+  color: var(--clr-accent--900);
+  text-align: center;
+}
+
+.block__money--input {
+  padding-left: 1% !important;
+  max-width: 99% !important;
+}
+
+.block__money--input::placeholder {
+  color: var(--clr-text--300);
+  padding-left: 1em;
+}
+
+.block__money--input:not(:placeholder-shown) {
+  padding-left: 1em;
+}
+
+/* style .block__currency--input if disabled */
+.block__currency--input:disabled {
+  background-color: #c9f5c9 !important;
+  text-align: center;
+}
+
+.label-style,
+.block__currency--title {
   color: black;
   padding: 5px;
   font-size: large;
   margin: 5px;
 }
 
-label {
-  color: black;
+label,
+.block__currency--title {
   font-size: large;
 }
 
@@ -33,7 +133,7 @@ label {
   margin-top: 10px;
 }
 
-::placeholder { 
+::placeholder {
   color: black;
 }
 
@@ -41,6 +141,7 @@ h3 {
   margin-left: 15px;
 }
 
+/* Grid Content */
 
 .grid-margin-top {
   margin-top: 3rem;
@@ -54,31 +155,14 @@ h3 {
   margin-top: 6rem;
 }
 
-.grid-margin-top {
-  margin-top: 3rem;
-}
-<<<<<<< HEAD
->>>>>>> 003dcac (Create grid content layout with images and placeholder content)
-<<<<<<< HEAD
->>>>>>> b836a8d (Create grid content layout with images and placeholder content)
-<<<<<<< HEAD
->>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
-=======
-=======
-=======
-
-.image-margin-top {
-  margin-top: 25px;
+.center-align {
+  margin-top: 2.5rem;
 }
 
-.bottom-grid-margin-top {
-  margin-top: 6rem;
+/* media */
+@media (min-width: 992px) {
+  /* .block__money--input {
+    padding-left: 1em !important;
+    max-width: 97% !important;
+  } */
 }
->>>>>>> d696b18 (Create 'Get started' button and fix margin spacing)
->>>>>>> 25a8df3 (Create 'Get started' button and fix margin spacing)
-<<<<<<< HEAD
->>>>>>> 1841bfe (Create 'Get started' button and fix margin spacing)
-=======
-=======
->>>>>>> b7fb23a (removing everything)
->>>>>>> 0d5fb62 (removing everything)

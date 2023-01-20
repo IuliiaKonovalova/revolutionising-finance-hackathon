@@ -50,6 +50,7 @@ const calculateFinal = function() {
 
 buttonCalculate.addEventListener("click", calculateFinal);
 
+
 // API endpoint for getting exchange rates
 const API_ENDPOINT = "https://api.exchangerate-api.com/v4/latest";
 
@@ -86,3 +87,4 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems, options);
   });
+

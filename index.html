@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0d5fb62 (removing everything)
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,74 +32,32 @@
 </head>
 
 <body>
+
   <!-- Header -->
   <header class="header">
+
     <!-- Navbar -->
     <nav class="navbar green lighten-3" id="navbar">
+      <div class="nav-wrapper">
 
+        <!-- Logo -->
+        <a href="#" class="brand-logo">
+          <img class="responsive-img" src="/assets/images/logo/logo3.png" alt="Logo">
+        </a>
+        
+        <!-- Title/Link-->
+        <ul id="nav-mobile" class="sub-title left hide-on-med-and-down">
+          <li><a href="sass.html">Title Web Application</a></li>
+        </ul>
+
+      </div>
     </nav>
+
   </header>
 
   <!-- Main section -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <main class="main">
-    <div class="row valign-wrapper">
-        <div class="col s8 offset-s2">
-            <div class="card green lighten-1 z-depth-4">
-                <div class="card-content black-text">
-                    <span class="card-title">Card Title</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                    <form>
-                        <div class="card-content">
-                            <label class="label-style" for="fromCountry">Select your ountry of origin</label>
-                            <select id="fromCountry" class="browser-default col s4"></select>
-                        </div>
-                        <div class="card-content">
-                            <label class="label-style" for="toCountry">Where are you going?</label>
-                            <select id="toCountry" class="browser-default col s4"></select>
-                        </div>
-                        <div class="card-content">
-                            <label for="money" class="active"></label>
-                            <input type="number" id="money" placeholder="Enter the amount of money you want to spend">
-                        </div>
-                        <div class="card-content">
-                            <button class="waves-effect green darken-3 waves-light btn-large" type="button" id="button-calculate">Convert</button>
-                        </div>
-                    </form>
-                    <div class="">
-                        <h3>You Have: <span id="result"></span></h3>
-                    </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </main>
-=======
-=======
-=======
->>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
 
-
->>>>>>> 34dc655 (**NEW** styling of card)
-
-=======
-<<<<<<< HEAD
->>>>>>> ccb6b74 (**NEW** styling of card)
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 003dcac (Create grid content layout with images and placeholder content)
->>>>>>> b836a8d (Create grid content layout with images and placeholder content)
   <main class="main">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     <!-- Top Grid Design -->
     <div class="container grid-margin-top">
@@ -132,7 +85,7 @@
 
         <!-- Top Image -->
         <div class="col s12 m6 right-align image-margin-top">
-          <img class="responsive-img" src="/assets/images/pexels-currency-exchange.jpg" alt="Euros To Dollars">
+          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange.jpg" alt="Euros To Dollars">
         </div>
 
       </div>
@@ -143,7 +96,7 @@
 
         <!-- Bottom Content -->
         <div class="col s12 m6 left-align">
-          <img class="responsive-img" src="/assets/images/pexels-currency-exchange-2.webp" alt="Euros To Dollars">
+          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange-2.webp" alt="Euros To Dollars">
         </div>
 
         <!-- Bottom Image -->
@@ -183,50 +136,56 @@
       <button type="button" id="button-calculate">Convert</button>
     </form>
     <div id="result"></div>
->>>>>>> 003dcac (Create grid content layout with images and placeholder content)
 
-<<<<<<< HEAD
-=======
 
-<!--ah-dev-branch-->
+    <!--ah-dev-branch-->
     <div class="row valign-wrapper">
-        <div class="col s8 offset-s2">
-            <div class="card green lighten-1 z-depth-4">
-                <div class="card-content black-text">
-                    <span class="card-title">Card Title</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                    <form>
-                        <div class="card-content">
-                            <label class="label-style" for="fromCountry">Select your ountry of origin</label>
-                            <select id="fromCountry" class="browser-default col s4"></select>
-                        </div>
-                        <div class="card-content">
-                            <label class="label-style" for="toCountry">Where are you going?</label>
-                            <select id="toCountry" class="browser-default col s4"></select>
-                        </div>
-                        <div class="card-content">
-                            <label for="money" class="active"></label>
-                            <input type="number" id="money" placeholder="Enter the amount of money you want to spend">
-                        </div>
-                        <div class="card-content">
-                            <button class="waves-effect green darken-3 waves-light btn-large" type="button" id="button-calculate">Convert</button>
-                        </div>
-                    </form>
-                    <div class="">
-                        <h3>You Have: <span id="result"></span></h3>
-                    </div>
+      <div class="col s8 offset-s2">
+        <div class="card green lighten-1 z-depth-4">
+          <div class="card-content black-text">
+            <span class="card-title align-center">Card Title</span>
+            <form>
+              <div class="card-content">
+                <div class="col l6 m12 block__input">
+                  <label class="label-style" for="fromCountry">Select your country of origin</label>
+                  <select id="fromCountry" class="browser-default col s4"></select>
+                </div>
+                <div class="col l6 s12 block__input">
+                  <div class="block__currency--title">Currency</div>
+                  <input type="text" class="block__currency--input" disabled>
+                </div>
               </div>
+              <div class="card-content">
+                <div class="col l6 m12 block__input">
+                  <label class="label-style" for="toCountry">Where are you going?</label>
+                  <select id="toCountry" class="browser-default col s4"></select>
+                </div>
+                <div class="col l6 m12 block__input">
+                  <div class="block__currency--title">Currency</div>
+                  <input type="text" class="block__currency--input" disabled>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="col s12 l12 block__input">
+                  <label for="money" class="active label-style">
+                    Enter the amount of money you want to spend
+                  </label>
+                  <input type="number" id="money" class="block__money--input" placeholder="100">
+                </div>
+              </div>
+              <div class="card-content">
+                <button class="waves-effect green darken-3 waves-light btn-large" type="button"
+                  id="button-calculate">Convert</button>
+              </div>
+            </form>
+            <div class="">
+              <h3>You Have: <span id="result"></span></h3>
             </div>
           </div>
         </div>
       </div>
-=======
-=======
->>>>>>> a50dea7 (add JS logic to display/calc HTML)
-=======
->>>>>>> 50916ff (Add styles to navbar)
-    Body
+    </div>
+    <!-- AVT - testing api curreny exchange code -->
     <div class="container">
       <h1 class="center-align">Currency Converter</h1>
       <form id="conversion-form" class="row">
@@ -254,175 +213,9 @@
               <button class="btn" type="submit">Convert</button>
           </div>
       </form>
-<<<<<<< HEAD
->>>>>>> 6cc5b72 (Javascript functionality and trying to figure out the html)
-<<<<<<< HEAD
->>>>>>> 16d9bd5 (Javascript functionality and trying to figure out the html)
-=======
-=======
-=======
-=======
-=======
->>>>>>> 00491b4 (add styling to form html)
-=======
->>>>>>> 093b6f9 (Javascript functionality and trying to figure out the html)
-
-    <!-- Top Grid Design -->
-    <div class="container grid-margin-top">
-      <div class="row">
-
-        <!-- Top Content -->
-        <div class="col s12 m6 left-align">
-          <h3>
-            Title
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
-          <div class="center-align">
-            <a class="btn-small">
-              Get started
-            </a>
-          </div>
-        </div>
-
-        <!-- Top Image -->
-        <div class="col s12 m6 right-align image-margin-top">
-          <img class="responsive-img" src="/assets/images/pexels-currency-exchange.jpg" alt="Euros To Dollars">
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container bottom-grid-margin-top">
-      <div class="row">
-
-        <!-- Bottom Content -->
-        <div class="col s12 m6 left-align">
-          <img class="responsive-img" src="/assets/images/pexels-currency-exchange-2.webp" alt="Euros To Dollars">
-        </div>
-
-        <!-- Bottom Image -->
-        <div class="col s12 m6 right-align">
-          <h3>
-            Title
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Form Design -->
-
-    <form>
-      <label>Country of origin:
-        <select id="fromCountry"></select>
-      </label>
-      <br>
-      <label>Amount of money:
-        <input type="number" id="money" placeholder="Enter the amount of money you have">
-      </label>
-      <br>
-      <label>Travel country:
-        <select id="toCountry"></select>
-      </label>
-      <br>
-      <button type="button" onclick="convertCurrency()">Convert</button>
-    </form>
-    <div id="result"></div>
-=======
-    <main class="main">
-    <div class="row valign-wrapper">
-        <div class="col s8 offset-s2">
-            <div class="card green lighten-1 z-depth-4">
-                <div class="card-content black-text">
-                    <span class="card-title">Card Title</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                    <form>
-                        <div class="card-content">
-                            <label class="label-style" for="fromCountry">Select your ountry of origin</label>
-                            <select id="fromCountry" class="browser-default col s4"></select>
-                        </div>
-                        <div class="card-content">
-                            <label class="label-style" for="toCountry">Where are you going?</label>
-                            <select id="toCountry" class="browser-default col s4"></select>
-                        </div>
-                        <div class="card-content">
-                            <label for="money" class="active"></label>
-                            <input type="number" id="money" placeholder="Enter the amount of money you want to spend">
-                        </div>
-                        <div class="card-content">
-                            <button class="waves-effect green darken-3 waves-light btn-large" type="button" id="button-calculate">Convert</button>
-                        </div>
-                    </form>
-                    <div class="">
-                        <h3>You Have: <span id="result"></span></h3>
-                    </div>
-              </div>
-            </div>
-          </div>
-        </div>
-<<<<<<< HEAD
-    </main>
->>>>>>> f9c3a73 (**NEW** styling of card)
-
->>>>>>> 81d968a (add JS logic to display/calc HTML)
-<<<<<<< HEAD
->>>>>>> a50dea7 (add JS logic to display/calc HTML)
-<<<<<<< HEAD
->>>>>>> 1fd6e8b (add JS logic to display/calc HTML)
-=======
-=======
-=======
-      </div>
-=======
-    Body
-    <div class="container">
-      <h1 class="center-align">Currency Converter</h1>
-      <form id="conversion-form" class="row">
-          <div class="input-field col s12">
-              <input type="number" id="amount" name="amount">
-              <label for="amount">Amount</label>
-          </div>
-          <div class="input-field col s6">
-              <select id="fromCurrency" name="fromCurrency">
-                  <option value="USD">USD</option>
-                  <option value="EUR">EUR</option>
-                  <option value="GBP">GBP</option>
-              </select>
-              <label for="fromCurrency">From Currency</label>
-          </div>
-          <div class="input-field col s6">
-              <select id="toCurrency" name="toCurrency">
-                  <option value="USD">USD</option>
-                  <option value="EUR">EUR</option>
-                  <option value="GBP">GBP</option>
-              </select>
-              <label for="toCurrency">To Currency</label>
-          </div>
-          <div class="center-align col s12">
-              <button class="btn" type="submit">Convert</button>
-          </div>
-      </form>
->>>>>>> 6cc5b72 (Javascript functionality and trying to figure out the html)
->>>>>>> d371c6e (Javascript functionality and trying to figure out the html)
->>>>>>> 093b6f9 (Javascript functionality and trying to figure out the html)
->>>>>>> b21f205 (Javascript functionality and trying to figure out the html)
+     </div>
+    
+  
   </main>
 
   <!--Footer-->
@@ -458,9 +251,3 @@
 </body>
 
 </html>
-<<<<<<< HEAD
->>>>>>> 81d968a (add JS logic to display/calc HTML)
-=======
-=======
->>>>>>> b7fb23a (removing everything)
->>>>>>> 0d5fb62 (removing everything)

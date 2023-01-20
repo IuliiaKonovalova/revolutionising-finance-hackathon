@@ -1,24 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> eeecd7e (testing commit to my own development branch)
-=======
->>>>>>> 0d5fb62 (removing everything)
 # revolutionising-finance-hackathon
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-* **test**
-<<<<<<< HEAD
->>>>>>> fb64797 (test)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
 
 ## Image Credits
 
@@ -27,15 +9,8 @@
     [Pexels](https://www.pexels.com/):
     - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
     - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 003dcac (Create grid content layout with images and placeholder content)
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> b836a8d (Create grid content layout with images and placeholder content)
->>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
+
+
 ## About 
 
 ---
@@ -152,24 +127,7 @@ Our team is made up of a wonderful group of people from around the world - all o
 - Iuliia Konovalova - [Github](https://github.com/IuliiaKonovalova)
 - Keiron Liam Chaudhry - [Github](https://github.com/keironchaudhry)
 - Richard Bailey [Github](https://github.com/Rsrbai)
-<<<<<<< HEAD
 
-=======
-Just a test to see if this only updates on my branch and not main.
->>>>>>> 7662129 (testing commit to my own development branch)
-<<<<<<< HEAD
->>>>>>> f187d38 (testing commit to my own development branch)
-=======
-=======
-
-* **test**
->>>>>>> 227b4ee (test)
-<<<<<<< HEAD
->>>>>>> 2d34c19 (test)
-=======
-=======
-=======
-* **test**
 
 ## Image Credits
 
@@ -178,20 +136,4 @@ Just a test to see if this only updates on my branch and not main.
     [Pexels](https://www.pexels.com/):
     - Image 1: https://www.pexels.com/photo/photo-of-person-holding-smartphone-6802042/
     - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
->>>>>>> 003dcac (Create grid content layout with images and placeholder content)
-<<<<<<< HEAD
->>>>>>> b836a8d (Create grid content layout with images and placeholder content)
-<<<<<<< HEAD
->>>>>>> 2de7544 (Create grid content layout with images and placeholder content)
-=======
-=======
-=======
-# revolutionising-finance-hackathon
->>>>>>> 6407ef0 (testing commit to my own development branch)
->>>>>>> fc7d2f8 (testing commit to my own development branch)
-<<<<<<< HEAD
->>>>>>> eeecd7e (testing commit to my own development branch)
-=======
-=======
->>>>>>> b7fb23a (removing everything)
->>>>>>> 0d5fb62 (removing everything)
+
