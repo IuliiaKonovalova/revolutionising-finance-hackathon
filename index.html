@@ -44,7 +44,7 @@
         <a href="#" class="brand-logo">
           <img class="responsive-img" src="/assets/images/logo/logo3.png" alt="Logo">
         </a>
-        
+
         <!-- Title/Link-->
         <ul id="nav-mobile" class="sub-title left hide-on-med-and-down">
           <li><a href="sass.html">Title Web Application</a></li>
@@ -85,7 +85,8 @@
 
         <!-- Top Image -->
         <div class="col s12 m6 right-align image-margin-top">
-          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange.jpg" alt="Euros To Dollars">
+          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange.jpg"
+            alt="Euros To Dollars">
         </div>
 
       </div>
@@ -96,7 +97,8 @@
 
         <!-- Bottom Content -->
         <div class="col s12 m6 left-align">
-          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange-2.webp" alt="Euros To Dollars">
+          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange-2.webp"
+            alt="Euros To Dollars">
         </div>
 
         <!-- Bottom Image -->
@@ -189,33 +191,36 @@
     <div class="container">
       <h1 class="center-align">Currency Converter</h1>
       <form id="conversion-form" class="row">
-          <div class="input-field col s12">
-              <input type="number" id="amount" name="amount">
-              <label for="amount">Amount</label>
-          </div>
-          <div class="input-field col s6">
-              <select id="fromCurrency" name="fromCurrency">
-                  <option value="USD">USD</option>
-                  <option value="EUR">EUR</option>
-                  <option value="GBP">GBP</option>
-              </select>
-              <label for="fromCurrency">From Currency</label>
-          </div>
-          <div class="input-field col s6">
-              <select id="toCurrency" name="toCurrency">
-                  <option value="USD">USD</option>
-                  <option value="EUR">EUR</option>
-                  <option value="GBP">GBP</option>
-              </select>
-              <label for="toCurrency">To Currency</label>
-          </div>
-          <div class="center-align col s12">
-              <button class="btn" type="submit">Convert</button>
-          </div>
+        <div class="input-field col s12">
+          <input type="number" id="amount" name="amount">
+          <label for="amount">Amount</label>
+        </div>
+        <div class="input-field col s6">
+          <select id="fromCurrency" name="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+          <label for="fromCurrency">From Currency</label>
+        </div>
+        <div class="input-field col s6">
+          <select id="toCurrency" name="toCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+          <label for="toCurrency">To Currency</label>
+        </div>
+        <div class="center-align col s12">
+          <button class="btn" type="submit">Convert</button>
+        </div>
       </form>
-     </div>
-    
-  
+    </div>
+
+    <!-- Testing amadeus -->
+    <input type="text" id="amadeus-input" placeholder="Enter a city">
+    <button type="button" id="amadeus-button">Search</button>
+    <div id="amadeus-result"></div>
   </main>
 
   <!--Footer-->
@@ -248,6 +253,7 @@
 
   <!-- Scripts -->
   <script type="module" src="assets/js/script.js"></script>
+  <script type="module" src="assets/js/api_key_travel.js"></script>
 </body>
 
 </html>

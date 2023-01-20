@@ -110,6 +110,7 @@ Green color was chosen as the main color for the project due to the the fact tha
 
 ## Credits
 
+- [adobe.com](https://www.adobe.com/creativecloud/design/hub/guides/meaning-of-green-in-design#:~:text=Associated%20with%20nature%20and%20positivity,as%20your%20design's%20primary%20color.) - for information about the meaning of green in design
 
 ---
 
