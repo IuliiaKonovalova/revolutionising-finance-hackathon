@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+
+:root {
+  --clr-text--100: #ffffff;
+  --clr-text--200: #e7e7e7;
+  --clr-text--300: #898989;
+  --clr-text--500: #363636;
+  --clr-text--900: #191919;
+  --fs: calc(60% + 0.8vmin);
+  --ff-primary: 'Lato', sans-serif;
+  --br: 0.5em;
+  --br--links: 0.2em;
+  --br-buttons: 0.2em;
+}
+
+/*------ Global Settings------*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: var(--fs);
+  font-family: var(--ff-primary);
+  color: var(--clr-text--900);
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -16,6 +48,7 @@ main {
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
+  border-radius: var(--br);
 }
 
 form {
@@ -28,24 +61,28 @@ form {
   flex-direction: column;
   align-items: flex-start;
   justify-self: start;
-  background-color: aqua;
   width: 100%;
 }
 
-.block__input select {
+.block__input select,
+.block__currency--input {
   width: 100% !important;
-  border-radius: 5px;
+
+  /* height: 40px; */
 }
 
-.label-style {
+
+
+.label-style,
+.block__currency--title {
   color: black;
   padding: 5px;
   font-size: large;
   margin: 5px;
 }
 
-label {
-  color: black;
+label,
+.block__currency--title {
   font-size: large;
 }
 
