@@ -18,6 +18,25 @@ main {
   margin-bottom: 5%;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.block__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-self: start;
+  background-color: aqua;
+  width: 100%;
+}
+
+.block__input select {
+  width: 100% !important;
+  border-radius: 5px;
+}
+
 .label-style {
   color: black;
   padding: 5px;
@@ -34,7 +53,7 @@ label {
   margin-top: 10px;
 }
 
-::placeholder { 
+::placeholder {
   color: black;
 }
 
@@ -53,4 +72,3 @@ h3 {
 .bottom-grid-margin-top {
   margin-top: 6rem;
 }
-
