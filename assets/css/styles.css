@@ -67,11 +67,14 @@ form {
 .block__input select,
 .block__currency--input {
   width: 100% !important;
-
-  /* height: 40px; */
+  border-radius: var(--br) !important;
+  background-color: var(--clr-text--200) !important;
 }
 
-
+.block__currency--input {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
 
 .label-style,
 .block__currency--title {
