@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Quicksand:wght@300;400;500&display=swap');
+
 
 
 :root {
@@ -58,6 +59,11 @@ main {
 }
 
 /* Navbar classes */
+
+.navbar-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
 
 .logo__image {
   display: block;
