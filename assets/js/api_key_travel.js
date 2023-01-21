@@ -83,7 +83,7 @@ const amadeusFetch = function() {
   // get data from the input field
   // add  spinner to amadeusResult
   amadeusResult.innerHTML = `
-    <div class="">
+    <div class="loader-margin-bottom">
       <div class=" center-align">
         <div class="spinner-border" role="status">
         <span class="visually-hidden">
