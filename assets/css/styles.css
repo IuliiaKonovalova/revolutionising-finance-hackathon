@@ -168,14 +168,21 @@ h3 {
   margin-top: 2.5rem;
 }
 
-.sightseeing__cards--title {
-  margin-top: 0 !important;
-}
-
 .go-somewhere-btn {
   margin-top: 10px;
 }
 
 .loader-margin-bottom {
   margin-bottom: 4rem;
+}
+
+/* Sightseeing block */
+
+.container__sightseeing {
+  margin-bottom: 15vh;
+}
+
+
+.sightseeing__cards--title {
+  margin-top: 0 !important;
 }
