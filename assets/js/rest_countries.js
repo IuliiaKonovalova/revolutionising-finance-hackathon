@@ -56,14 +56,15 @@ const fetchCountries = async () => {
 //         // console.log(option)
 //       }
 //   });
+    return countries_data
 };
 
-fetchCountries().then(() => {
+fetchCountries().then((data) => {
 
-  console.log(countries_data)
+  console.log(data)
   const select = document.getElementById("country-select");
   // Iterate through the list of countries and add an option for each one
-  countries_data.forEach(country => {
+  data.forEach(country => {
     // console.log(country)
     const option = document.createElement("option");
     option.value = country.alpha2Code;
@@ -73,8 +74,10 @@ fetchCountries().then(() => {
     const selectDestination = document.getElementById("destination-select");
     // Iterate through the list of countries and add an option for each one
 
-    countries_data.forEach(country => {
+    data.forEach(country => {
       if (country.name.common ==="United Kingdom") {
+        console.log(country)
+        console.log(country.currencies)
         // append the option to the
         console.log(document.getElementById("country-selected"))
         // add value to the select
@@ -85,28 +88,49 @@ fetchCountries().then(() => {
         document.getElementById("country-selected").setAttribute("data-attr-currency", "cur")
         // selectDestination.innerHTML(`
         // <option value="${country.altSpellings[0]}" selected>${country.name.common}</option>`)
+        let currencyCodeKeys = Object.keys(country.currencies)
+        console.log('currencyCodeKeys', currencyCodeKeys)
+        // get the values from currencyCodeKeys list
+        let keyCurrencyCode = currencyCodeKeys[0];
+        console.log('keyCurrencyCode', keyCurrencyCode)
+        currencyCodeKeys.forEach(key => {
+          console.log('str', key)
+        })
+        document.getElementById("country-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
       } else {
+        console.log(country)
         const option = document.createElement("option");
+        if (country.currencies === undefined) {
+          console.log("undefined")
+          return
+        } else {
 
-        // console.log(country.currencies)
-        console.log(country.currencies)
-        let currencyCode;
-        // for (const [key, value] of Object.entries(currencyCode)) {
-        //   console.log(`${key}: ${value}`);
-        // }
-        console.log(currencyCode)
+          // console.log(country.currencies)
+          console.log(country.currencies)
 
-        // let currencyCode = Object.keys(country.currencies[0])
-        // console.log(currencyCode)
-
+          let currencyCodeKeys = Object.keys(country.currencies)
+          console.log('currencyCodeKeys', currencyCodeKeys)
+          // get the values from currencyCodeKeys list
+          let keyCurrencyCode = currencyCodeKeys[0];
+          console.log('keyCurrencyCode', keyCurrencyCode)
+          currencyCodeKeys.forEach(key => {
+            console.log('str', key)
+          })
+          option.setAttribute("data-attr-currency", currencyCodeKeys[0])
+          
+          console.log(currencyCodeKeys)
+            // for (const [key, value] of Object.entries(currencyCode)) {
+            //   console.log(`${key}: ${value}`);
+            // }
+            // console.log(currencyCode)
+        }
         option.value = country.altSpellings[0];
         console.log(country.altSpellings[0])
         option.innerText = country.name.common;
         selectDestination.appendChild(option);
         // add attribute to the option
-        option.setAttribute("data-attr-currency", "cur")
 
-        // console.log(option)
+        console.log(option)
       }
   });
 
