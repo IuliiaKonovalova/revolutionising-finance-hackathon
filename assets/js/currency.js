@@ -8,7 +8,7 @@ document.querySelector('#form').onsubmit = () => {
             console.log(data)
             const amount = document.querySelector("#amount").value;
             const currencyTo = document.querySelector("#toCurrency").value;
-            const rate = data.rates[currencyTo];
+            const rate = data.conversion_rates[currencyTo];
             function convert() {
                 return amount * rate;
             }
