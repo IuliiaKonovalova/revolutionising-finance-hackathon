@@ -9,14 +9,10 @@ const amadeusResult = document.getElementById("amadeus-result");
 
 const longlatApiKey = "ChURwrLnW6pGX0zk2OWBRg==14Dkv21DHTJioryM";
 
-// get latitude and longitude from the input field from geonames
-
-let country = "Germany";
-let city = "London";
 let latitude;
 let longitude;
 
-const getLongLat = async () => {
+const getLongLat = async (city) => {
   const longlatUrl = `https://api.api-ninjas.com/v1/city?name=${city}`;
   const longlatHeaders = {
     "X-Api-Key": longlatApiKey,
@@ -34,13 +30,11 @@ const getLongLat = async () => {
   // convert to integer
   latitude = longlatData[0].latitude;
   longitude = longlatData[0].longitude;
-  // get latitiude and longitude from the 
-
-
   return longlatData;
 };
 
-const longlat = getLongLat();
+
+// const longlat = getLongLat();
 
 
 
@@ -76,19 +70,43 @@ const locationPois = async (lat, long) => {
   return amadeusData.data;
 };
 
-const locations = locationPois(51.5072, -0.1275);
+// const locations = locationPois(51.5072, -0.1275);
 
-// Promise to get the latitude and longitude
-getLongLat().then(() => {
-  locationPois(latitude, longitude);
-});
-console.log(locations);
+// // Promise to get the latitude and longitude
+// getLongLat().then(() => {
+//   locationPois(latitude, longitude);
+// });
+// console.log(locations);
 
 // create a fetch request to the API
 const amadeusFetch = function() {
   // get data from the input field
-  const amadeusInputValue = amadeusInput.value;
-
+  // add  spinner to amadeusResult
+  amadeusResult.innerHTML = `<div class="spinner-border" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>`;
+  const city = amadeusInput.value;
+  console.log(city);
+  // get the latitude and longitude
+  getLongLat(city).then(() => {
+    // get the location points of interest
+    locationPois(latitude, longitude).then((data) => {
+      console.log(data);
+      // remove the spinner
+      amadeusResult.innerHTML = "";
+      // add the data to the result div
+      data.forEach((poi) => {
+        amadeusResult.insertAdjacentHTML("beforeend", `<div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title
+          ">${poi.name}</h5>
+          <p class="card-text">${poi.category}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>`);
+      });
+    });
+  });
 
 }
 
