@@ -51,6 +51,7 @@ fetchCountries().then((data) => {
       document.getElementById("country-to-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
     } else {
       const option = document.createElement("option");
+<<<<<<< HEAD
       if (country.currencies === undefined) {
         console.log("undefined")
         return
@@ -97,6 +98,14 @@ fetchCountries().then((data) => {
         // add attribute to the option
 
         console.log(option)
+=======
+      option.value = country.altSpellings[0];
+      option.innerText = country.name.common;
+      if (country.name.common === "United Kingdom") {
+        // set selected option
+        option.selected = true;
+        console.log('selected')
+>>>>>>> eced284 (alter code for targeting data in api response)
       }
   });
 })
