@@ -1,7 +1,7 @@
-const APIKey = '4e21e51b0599ed099d6b98c4'
+const APIKey = '4e21e51b0599ed099d6b98c4';
+const base = document.querySelector('#fromCurrency').value;
 
 document.querySelector('#form').onsubmit = () => {
-    const base = document.querySelector('#fromCurrency').value;
     fetch(`https://v6.exchangerate-api.com/v6/${APIKey}/latest/USD`)
         .then((response) => response.json())
         .then((data) => {
@@ -12,7 +12,7 @@ document.querySelector('#form').onsubmit = () => {
             function convert() {
                 return amount * rate;
             }
-            document.querySelector('#results').innerHTML = `${amount} ${base.toUpperCase()} equal to ${currencyTo} ${convert().toFixed(2)}`;
+            document.querySelector('#results').innerHTML = `${amount} ${base.toUpperCase()} is equal to ${currencyTo} ${convert().toFixed(2)}`;
         })
         .catch((error) => {
             console.log("Error: ", error);
