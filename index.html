@@ -190,33 +190,51 @@
         </div>
       </div>
     </div>
-    <!-- AVT - testing api curreny exchange code -->
+
+    <!-- Test API for Currencies - Branch: "keiron" -->
     <div class="container">
+
+      <!-- Title -->
       <h1 class="center-align">Currency Converter</h1>
-      <form id="conversion-form" class="row">
+
+      <!-- Form -->
+      <form action="">
+
+        <!-- Amount -->
         <div class="input-field col s12">
-          <input type="number" id="amount" name="amount">
-          <label for="amount">Amount</label>
+          <input 
+            type="number" 
+            id="amount" 
+            placeholder="Enter amount" 
+            step=".0001" 
+          />
         </div>
+
+        <!-- "From" Currency 'X' -->
+        <label for="fromCurrency">From Currency</label>
         <div class="input-field col s6">
-          <select id="fromCurrency" name="fromCurrency">
+          <select style="display: block;" id="fromCurrency" name="fromCurrency">
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
             <option value="GBP">GBP</option>
           </select>
-          <label for="fromCurrency">From Currency</label>
         </div>
+
+        <!-- "To" Currency 'Y' -->
+        <label for="toCurrency">To Currency</label>
         <div class="input-field col s6">
-          <select id="toCurrency" name="toCurrency">
+          <select style="display: block;" id="toCurrency" name="toCurrency">
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
             <option value="GBP">GBP</option>
           </select>
-          <label for="toCurrency">To Currency</label>
         </div>
+
+        <!-- Submit Button-->
         <div class="center-align col s12">
           <button class="btn" type="submit">Convert</button>
         </div>
+
       </form>
     </div>
 
