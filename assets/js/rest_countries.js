@@ -23,7 +23,7 @@ fetch("https://restcountries.com/v3.1/all")
       const option = document.createElement("option");
       option.value = country.altSpellings[0];
       option.innerText = country.name.common;
-      if (country.name.common ==="United Kingdom") {
+      if (country.name.common === "United Kingdom") {
         // set selected option
         option.selected = true;
         console.log('selected')
