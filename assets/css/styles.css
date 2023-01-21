@@ -5,7 +5,8 @@
   --clr-accent--100: #f8fff8;
   --clr-accent--200: #f0fdf0;
   --clr-accent--500: #a5d6a7;
-  --clr-accent--900: #3ba44f;
+  --clr-accent--800: #3ba44f;
+  --clr-accent--900: #2f883f;
   --clr-text--100: #ffffff;
   --clr-text--200: #e7e7e7;
   --clr-text--300: #898989;
@@ -14,6 +15,8 @@
   --fs: calc(60% + 0.8vmin);
   --ff-primary: 'Lato', sans-serif;
   --br: 0.5em;
+
+  --br-btn: 0.2em;
   --br--links: 0.2em;
   --br-buttons: 0.2em;
 }
@@ -40,15 +43,21 @@ body {
   flex-direction: column;
 }
 
-main {
-  /* background-color: rgb(71, 255, 129); */
+.btn {
+  border-radius: var(--br-buttons) !important;
+  font-weight: 900;
+}
+
+.btn:hover {
+  background-color: var(--clr-accent--900) !important;
+  color: var(--clr-text--100) !important;
 }
 
 main {
   flex: 1 0 auto;
 }
 
-/* Navbar classes */ 
+/* Navbar classes */
 
 .brand-logo {
   margin-left: 2rem;
@@ -92,7 +101,7 @@ form {
 }
 
 .block__currency--input:not(:placeholder-shown) {
-  color: var(--clr-accent--900);
+  color: var(--clr-accent--800);
   text-align: center;
 }
 
@@ -159,10 +168,6 @@ h3 {
   margin-top: 2.5rem;
 }
 
-/* media */
-@media (min-width: 992px) {
-  /* .block__money--input {
-    padding-left: 1em !important;
-    max-width: 97% !important;
-  } */
+.sightseeing__cards--title {
+  margin-top: 0 !important;
 }
