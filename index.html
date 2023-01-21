@@ -41,13 +41,13 @@
       <div class="nav-wrapper">
 
         <!-- Logo -->
-        <a href="#" class="brand-logo">
-          <img class="responsive-img" src="assets/images/logo/logo3.png" alt="Logo">
+        <a href="#" class="logo__image brand-logo left responsive-img">
+          <img class="" src="assets/images/logo/logo3.png" alt="Logo">
         </a>
 
         <!-- Title/Link-->
-        <ul id="nav-mobile" class="sub-title left hide-on-med-and-down">
-          <li><a href="sass.html">Title Web Application</a></li>
+        <ul id="nav-mobile" class="sub-title left hide-on-small">
+          <li><a class="" href="sass.html">SmartVacation</a></li>
         </ul>
 
       </div>
@@ -152,7 +152,7 @@
               <div class="card-content">
                 <div class="col l6 m12 block__input">
                   <label class="label-style" for="fromCountry">Select your country of origin</label>
-                  <select id="fromCountry" class="browser-default col s4"></select>
+                  <select id="country-select" class="browser-default col s4"></select>
                 </div>
                 <div class="col l6 s12 block__input">
                   <div class="block__currency--title">Currency</div>
@@ -162,7 +162,7 @@
               <div class="card-content">
                 <div class="col l6 m12 block__input">
                   <label class="label-style" for="toCountry">Where are you going?</label>
-                  <select id="toCountry" class="browser-default col s4"></select>
+                  <select id="destination-select" class="browser-default col s4"></select>
                 </div>
                 <div class="col l6 m12 block__input">
                   <div class="block__currency--title">Currency</div>
@@ -310,7 +310,7 @@
             new Date().getFullYear()
           )
         </script>
-        Title Web Application
+        SmartVacation
       </div>
     </div>
 
@@ -320,6 +320,7 @@
   <script type="module" src="assets/js/script.js"></script>
   <script type="module" src="assets/js/travel_advice.js"></script>
   <script type="module" src="assets/js/currency.js"></script>
+  <script type="module" src="assets/js/rest_countries.js"></script>
 </body>
 
 </html>
