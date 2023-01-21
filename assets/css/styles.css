@@ -59,12 +59,58 @@ main {
 
 /* Navbar classes */
 
-.brand-logo {
+.logo__image {
+  display: block;
+  height: 100%;
   margin-left: 2rem;
+}
+
+.logo__image img {
+  object-fit: contain;
+  height: 100%;
 }
 
 .sub-title li {
   margin-left: 8rem;
+}
+
+/* Content */
+.section {
+  padding: 5rem 0;
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0.5em 0;
+}
+
+/* section image */
+.section__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.section__image--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100% !important;
+  margin: auto !important;
+}
+
+.section__container--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100% !important;
+  margin: auto !important;
+}
+
+.btn__start {
+  margin-top: 2vh;
 }
 
 .card {
@@ -168,14 +214,21 @@ h3 {
   margin-top: 2.5rem;
 }
 
-.sightseeing__cards--title {
-  margin-top: 0 !important;
-}
-
 .go-somewhere-btn {
   margin-top: 10px;
 }
 
 .loader-margin-bottom {
   margin-bottom: 4rem;
+}
+
+/* Sightseeing block */
+
+.container__sightseeing {
+  margin-bottom: 15vh;
+}
+
+
+.sightseeing__cards--title {
+  margin-top: 0 !important;
 }

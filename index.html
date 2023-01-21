@@ -41,13 +41,13 @@
       <div class="nav-wrapper">
 
         <!-- Logo -->
-        <a href="#" class="brand-logo">
-          <img class="responsive-img" src="/assets/images/logo/logo3.png" alt="Logo">
+        <a href="#" class="logo__image brand-logo left responsive-img">
+          <img class="" src="assets/images/logo/logo3.png" alt="Logo">
         </a>
 
         <!-- Title/Link-->
-        <ul id="nav-mobile" class="sub-title left hide-on-med-and-down">
-          <li><a href="sass.html">Title Web Application</a></li>
+        <ul id="nav-mobile" class="sub-title left hide-on-small">
+          <li><a class="" href="sass.html">SmartVacation</a></li>
         </ul>
 
       </div>
@@ -60,65 +60,52 @@
   <main class="main">
 
     <!-- Top Grid Design -->
-    <div class="container grid-margin-top">
-      <div class="row">
-
+    <section class="section container grid-margin-top">
+      <div class="row section__container">
         <!-- Top Content -->
-        <div class="col s12 m6 left-align">
-          <h3>
-            Title
-          </h3>
+        <div class="col s12 m6 left-align section__container--content">
+          <h1 class="section__title green-text text-darken-3">
+            Thinking about going abroad?
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
+            Looking to go abroad and safely know how to spend our money? Look no further than SmartVacation.
+            Here we give you the option to freely find your currency exchange rate at your desired destination
+            and help you find the best places to go!
           </p>
-          <div class="center-align">
-            <a class="green darken-3 btn-large btn">
+          <div class="left-align btn__start">
+            <a class="green darken-3 btn-large btn ">
               Get started
             </a>
           </div>
         </div>
-
         <!-- Top Image -->
-        <div class="col s12 m6 right-align image-margin-top">
-          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange.jpg"
+        <div class="col s12 m6 right-align section__image--container">
+          <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/globe.webp"
             alt="Euros To Dollars">
         </div>
-
       </div>
-    </div>
+    </section>
 
-    <div class="container bottom-grid-margin-top">
-      <div class="row">
-
+    <section class="container bottom-grid-margin-top">
+      <div class="row section__container">
         <!-- Bottom Content -->
-        <div class="col s12 m6 left-align">
-          <img class="responsive-img z-depth-2" src="/assets/images/pexels-currency-exchange-2.webp"
+        <div class="col s12 m6 left-align section__image--container">
+          <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/pexels-currency-exchange-2.webp"
             alt="Euros To Dollars">
         </div>
-
         <!-- Bottom Image -->
-        <div class="col s12 m6 right-align">
-          <h3>
-            Title
-          </h3>
+        <div class="col s12 m6 right-align ">
+          <h2 class="section__title green-text text-darken-3 ">
+            Look no further than us.
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
+            Below you'll find our smartly devised application that allows you to calculate your currency exchange
+            and tell you about the next best place in your next best holiday place.
+            Have any questions? Don't be afraid to reach out either!
           </p>
         </div>
-
       </div>
-    </div>
+    </section>
 
     <!-- Form Design -->
 
@@ -190,41 +177,57 @@
         </div>
       </div>
     </div>
-    <!-- AVT - testing api curreny exchange code -->
+
+    <!-- Test API for Currencies - Branch: "keiron" -->
     <div class="container">
+
+      <!-- Title -->
       <h1 class="center-align">Currency Converter</h1>
-      <form id="conversion-form" class="row">
+
+      <!-- Form -->
+      <form action="" id="form">
+
+        <!-- Amount -->
         <div class="input-field col s12">
-          <input type="number" id="amount" name="amount">
-          <label for="amount">Amount</label>
+          <input type="number" id="amount" placeholder="Enter amount" step=".0001" />
         </div>
+
+        <!-- "From" Currency 'X' -->
+        <label for="fromCurrency">Choose your currency</label>
         <div class="input-field col s6">
-          <select id="fromCurrency" name="fromCurrency">
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
-            <option value="GBP">GBP</option>
+          <select style="display: block;" id="fromCurrency" name="fromCurrency">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound</option>
           </select>
-          <label for="fromCurrency">From Currency</label>
         </div>
+
+        <!-- "To" Currency 'Y' -->
+        <label for="toCurrency">Pick a currency conversion</label>
         <div class="input-field col s6">
-          <select id="toCurrency" name="toCurrency">
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
-            <option value="GBP">GBP</option>
+          <select style="display: block;" id="toCurrency" name="toCurrency">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound</option>
           </select>
-          <label for="toCurrency">To Currency</label>
         </div>
+
+        <!-- Submit Button-->
         <div class="center-align col s12">
           <button class="btn" type="submit">Convert</button>
         </div>
+
       </form>
+
+      <!-- Conversion Results -->
+      <div id="results"></div>
     </div>
 
     <!-- Testing Amadeus -->
-    <section class="container">
+    <section class="container container__sightseeing">
 
       <!-- Title -->
-      <h2 class="center-align">Amadeus API</h2>
+      <h2 class="center-align green-text text-darken-3">City attractions & prices</h2>
 
       <div id="amadeus-form" class="row">
         <!-- Input Field -->
@@ -294,7 +297,7 @@
             new Date().getFullYear()
           )
         </script>
-        Title Web Application
+        SmartVacation
       </div>
     </div>
 
@@ -302,7 +305,8 @@
 
   <!-- Scripts -->
   <script type="module" src="assets/js/script.js"></script>
-  <script type="module" src="assets/js/api_key_travel.js"></script>
+  <script type="module" src="assets/js/travel_advice.js"></script>
+  <script type="module" src="assets/js/currency.js"></script>
   <script type="module" src="assets/js/rest_countries.js"></script>
 </body>
 
