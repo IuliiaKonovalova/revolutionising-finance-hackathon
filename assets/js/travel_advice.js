@@ -103,7 +103,17 @@ const amadeusFetch = function() {
     </div>
   </div>`;
   const city = amadeusInput.value;
-  console.log(city);
+  console.log("city");
+  if (city === "") {
+    amadeusResult.innerHTML = `<div class="">
+    <div class=" center-align red-text text-darken-3">
+
+    Please enter a city!
+
+    </div>
+  </div>`;
+    return;
+  }
   // get the latitude and longitude
   getLongLat(city).then(() => {
     // get the location points of interest
