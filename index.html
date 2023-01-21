@@ -77,7 +77,7 @@
             laborum.
           </p>
           <div class="center-align">
-            <a class="btn-small">
+            <a class="green darken-3 btn-large btn">
               Get started
             </a>
           </div>
@@ -176,8 +176,9 @@
                 </div>
               </div>
               <div class="card-content">
-                <button class="waves-effect green darken-3 waves-light btn-large" type="button"
-                  id="button-calculate">Convert</button>
+                <div class="col s12 l12 block__input">
+                  <button class="green darken-3 btn-large btn" type="button" id="button-calculate">Convert</button>
+                </div>
               </div>
             </form>
             <div class="">
@@ -218,9 +219,19 @@
     </div>
 
     <!-- Testing amadeus -->
-    <input type="text" id="amadeus-input" placeholder="Enter a city">
-    <button type="button" id="amadeus-button">Search</button>
-    <div id="amadeus-result"></div>
+    <section class="container">
+      <h2 class="center-align">Amadeus API</h2>
+      <div id="amadeus-form" class="row">
+        <div class="input-field col s12">
+          <input type="text" id="amadeus-input" name="amadeus-input">
+          <label for="amadeus-input">Enter a city</label>
+        </div>
+        <div class="center-align col s12">
+          <button class="btn green darken-3 btn-large" id="amadeus-button">Search</button>
+        </div>
+      </div>
+      <div id="amadeus-result"></div>
+    </section>
   </main>
 
   <!--Footer-->
@@ -243,13 +254,15 @@
               <a class="grey-text text-lighten-3" href="https://github.com/AlbinHall" target="_blank">Albin Hall</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/AVTpepper" target="_blank">Alexander Tastad</a>
+              <a class="grey-text text-lighten-3" href="https://github.com/AVTpepper" target="_blank">Alexander
+                Tastad</a>
             </li>
             <li>
               <a class="grey-text text-lighten-3" href="https://github.com/IuliiaKonovalova">Iulia Konovalova</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/keironchaudhry" target="_blank">Keiron Chaudhry</a>
+              <a class="grey-text text-lighten-3" href="https://github.com/keironchaudhry" target="_blank">Keiron
+                Chaudhry</a>
             </li>
             <li>
               <a class="grey-text text-lighten-3" href="https://github.com/Rsrbai" target="_blank">Richard Bailey</a>
@@ -263,13 +276,13 @@
     <!-- Copyright Text -->
     <div class="footer-copyright center-align">
       <div class="container">
-        &copy; 
+        &copy;
         <script>
           document.write(
             new Date().getFullYear()
           )
-        </script> 
-          Title Web Application
+        </script>
+        Title Web Application
       </div>
     </div>
 
