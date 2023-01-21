@@ -82,29 +82,56 @@ const locationPois = async (lat, long) => {
 const amadeusFetch = function() {
   // get data from the input field
   // add  spinner to amadeusResult
-  amadeusResult.innerHTML = `<div class="spinner-border" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>`;
+  amadeusResult.innerHTML = `
+    <div class="">
+      <div class=" center-align">
+        <div class="spinner-border" role="status">
+        <span class="visually-hidden">
+          <div class="preloader-wrapper small active">
+            <div class="spinner-layer spinner-green-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+        Loading...</span>
+      </div>
+    </div>
+  </div>`;
   const city = amadeusInput.value;
   console.log(city);
   // get the latitude and longitude
   getLongLat(city).then(() => {
     // get the location points of interest
     locationPois(latitude, longitude).then((data) => {
-      console.log(data);
+      console.log(`data: ${data}`);
+      if (data !== undefined) {
       // remove the spinner
       amadeusResult.innerHTML = "";
       // add the data to the result div
       data.forEach((poi) => {
-        amadeusResult.insertAdjacentHTML("beforeend", `<div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title
-          ">${poi.name}</h5>
+        amadeusResult.insertAdjacentHTML("beforeend", `<div class="card">
+        <div class="card-content">
+          <h5 class="card-title sightseeing__cards--title">${poi.name}</h5>
           <p class="card-text">${poi.category}</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary green lighten-1">Go somewhere</a>
         </div>
       </div>`);
       });
+    } else {
+      amadeusResult.innerHTML = `<div class="">
+      <div class=" center-align">
+
+      No data found!
+
+      </div>
+    </div>`;
+
+    }
     });
   });
 
