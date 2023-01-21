@@ -11,6 +11,7 @@ fetch("https://restcountries.com/v3.1/all")
   const select = document.getElementById("country-select");
   // Iterate through the list of countries and add an option for each one
   data.forEach(country => {
+    // console.log(country)
     const option = document.createElement("option");
     option.value = country.alpha2Code;
     option.innerText = country.name.common;
@@ -20,15 +21,21 @@ fetch("https://restcountries.com/v3.1/all")
     // Iterate through the list of countries and add an option for each one
     data.forEach(country => {
       const option = document.createElement("option");
-      option.value = country.alpha2Code;
+      option.value = country.altSpellings[0];
       option.innerText = country.name.common;
+      if (country.name.common ==="United Kingdom") {
+        // set selected option
+        option.selected = true;
+        console.log('selected')
+      }
       selectDestination.appendChild(option);
+      console.log(option)
   });
 });
-const selectItem = function(e) {
-    value = e.target.countrySelect
-    console.log(value)
-}
+// const selectItem = function(e) {
+//     value = e.target.countrySelect
+//     console.log(value)
+// }
 countrySelect.addEventListener("change", selectItem)
 // function onSelectItem(evt)
 //         {
