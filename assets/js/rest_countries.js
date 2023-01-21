@@ -61,6 +61,11 @@ fetchCountries().then((data) => {
       }
       option.value = country.altSpellings[0];
       option.innerText = country.name.common;
+      if (country.name.common === "United Kingdom") {
+        // set selected option
+        option.selected = true;
+        console.log('selected')
+      }
       selectDestination.appendChild(option);
     }
   });
