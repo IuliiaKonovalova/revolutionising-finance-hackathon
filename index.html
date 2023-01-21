@@ -222,16 +222,30 @@
 
     <!-- Testing amadeus -->
     <section class="container">
+      <!-- Title -->
       <h2 class="center-align">Amadeus API</h2>
       <div id="amadeus-form" class="row">
+
+        <!-- Input Field -->
         <div class="input-field col s12">
-          <input type="text" id="amadeus-input" name="amadeus-input">
-          <label for="amadeus-input">Enter a city</label>
+          <form onsubmit="emptyInputField()">
+            <label for="amadeus-input">Enter a city:</label>
+            <input type="text" id="amadeus-input" name="amadeus-input" required />
+            <!-- Search Button -->
+            <div class="center-align col s12">
+              <button class="btn green darken-3 btn-large" id="amadeus-button">Search</button>
+            </div>
+          </form>
         </div>
-        <div class="center-align col s12">
+
+        <!-- Search Button -->
+        <!-- <div class="center-align col s12">
           <button class="btn green darken-3 btn-large" id="amadeus-button">Search</button>
-        </div>
+        </div> -->
+
       </div>
+
+      <!-- Search Results -->
       <div id="amadeus-result"></div>
     </section>
   </main>
