@@ -74,6 +74,45 @@ main {
   margin-left: 8rem;
 }
 
+/* Content */
+.section {
+  padding: 5rem 0;
+}
+
+.section__title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0.5em 0;
+}
+
+/* section image */
+.section__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.section__image--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100% !important;
+  margin: auto !important;
+}
+
+.section__container--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100% !important;
+  margin: auto !important;
+}
+
+.btn__start {
+  margin-top: 2vh;
+}
+
 .card {
   margin-top: 5%;
   margin-bottom: 5%;
