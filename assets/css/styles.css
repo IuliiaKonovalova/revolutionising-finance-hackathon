@@ -59,8 +59,15 @@ main {
 
 /* Navbar classes */
 
-.brand-logo {
+.logo__image {
+  display: block;
+  height: 100%;
   margin-left: 2rem;
+}
+
+.logo__image img {
+  object-fit: contain;
+  height: 100%;
 }
 
 .sub-title li {
