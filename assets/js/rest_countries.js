@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const countrySelect = document.getElementById("countries-select");
 const selectDestination = document.getElementById("destination-select");
 const currencyFrom = document.getElementById("currency-from");
@@ -109,10 +110,34 @@ selectDestination.addEventListener("change", (event) => {
   console.log(selectedOptionDestination);
   // display the currency code
   currencyTo.innerHTML = event.target.options[event.target.selectedIndex].getAttribute("data-attr-currency");
+=======
+// Fetch the list of countries from the API
+fetch("https://restcountries.com/v3.1/all")
+.then(response => response.json())
+.then(data => {
+  // Get the select element that will hold the list of countries
+  const select = document.getElementById("country-select");
+  // Iterate through the list of countries and add an option for each one
+  data.forEach(country => {
+    const option = document.createElement("option");
+    option.value = country.alpha2Code;
+    option.innerText = country.name.common;
+    select.appendChild(option);
+  });
+  const selectDestination = document.getElementById("destination-select");
+    // Iterate through the list of countries and add an option for each one
+    data.forEach(country => {
+      const option = document.createElement("option");
+      option.value = country.alpha2Code;
+      option.innerText = country.name.common;
+      selectDestination.appendChild(option);
+  });
+>>>>>>> 8919f10 (Add rest countries api information to select options)
 });
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -162,3 +187,5 @@ selectDestination.addEventListener("change", (event) => {
 //   currencyDisplay.innerHTML = `${currency.name}(${currency.symbol})`;
 //   <div id="currency-display"></div>
 // })
+=======
+>>>>>>> 8919f10 (Add rest countries api information to select options)
