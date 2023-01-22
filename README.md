@@ -203,7 +203,14 @@ The SmartVacations web application consists of a single landing page with divers
 
 ## Future features
 
-To be added.
+- Adding a feature for estimating savings through cryptocurrency / index markets.
+- Extending the Amadeus API to the paid version which would give access to a Tour trips package library.
+- Adding a feature where you select the country you are traveling to and the app will automatically setup a travel budget for you depending on user input of budget limits(Over the top exclusive / exclusive / Mediocre / cheap / under the rug cheap).
+- Setting up a savings goal for a trip in mind.
+- Creating pre-built travel packages.
+- Live currency exchange charts.
+- Currency / cryptocurrency historical charts readily available.
+
 
 
 ## Testing
