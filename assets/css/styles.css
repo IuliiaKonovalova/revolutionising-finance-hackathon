@@ -99,6 +99,7 @@ main {
   align-items: center;
   height: 100% !important;
   margin: auto !important;
+  width: 50% !important;
 }
 
 .section__container--content {
@@ -144,6 +145,8 @@ form {
 .block__currency--input {
   border: none;
   font-weight: 900;
+  /* height: 4rem !important; */
+  padding: 0.75em;
 }
 
 .block__currency--input:not(:placeholder-shown) {
@@ -154,6 +157,7 @@ form {
 .block__money--input {
   padding-left: 1% !important;
   max-width: 99% !important;
+  ;
 }
 
 .block__money--input::placeholder {
@@ -231,4 +235,41 @@ h3 {
 
 .sightseeing__cards--title {
   margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 1.8rem;
+  }
+
+  .btn__started {
+    font-size: 1/2rem;
+    padding: 0 1em;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 565px) {
+  .section__container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    padding-bottom: 0 !important;
+  }
+
+  .section__container--main {
+    margin-bottom: 4.5em !important;
+  }
+
+  .section__image--container {
+    width: 100% !important;
+  }
+
+  .section__image--container.left-align {
+    display: none;
+  }
 }
