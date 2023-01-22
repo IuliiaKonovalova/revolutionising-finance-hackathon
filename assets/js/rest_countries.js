@@ -1,4 +1,9 @@
+const countrySelect = document.getElementById("countries-select");
+const selectDestination = document.getElementById("destination-select");
+const currencyFrom = document.getElementById("currency-from");
+const currencyTo = document.getElementById("currency-to");
 let selectedOption;
+let selectedOptionDestination;
 
 
 // console.log(countrySelect)
@@ -19,8 +24,6 @@ fetchCountries().then((data) => {
 
   console.log(data)
 
-  const countrySelect = document.getElementById("countries-select");
-  const selectDestination = document.getElementById("destination-select");
   // Iterate through the list of countries and add an option for each one
   data.forEach(country => {
     // console.log(country)
@@ -54,6 +57,14 @@ fetchCountries().then((data) => {
         // add data-attr-currency to the select
         let currencyCodeKeys = Object.keys(country.currencies)
         document.getElementById("country-from-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
+
+        document.getElementById("country-to-selected").value = country.altSpellings[0]
+        // add text to the select
+        document.getElementById("country-to-selected").innerText = country.name.common
+        // add data-attr-currency to the select
+        // let currencyCodeKeys = Object.keys(country.currencies)
+        document.getElementById("country-to-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
+        // set the value of the select
       } else {
         const option = document.createElement("option");
         if (country.currencies === undefined) {
@@ -70,13 +81,13 @@ fetchCountries().then((data) => {
         }
         option.value = country.altSpellings[0];
         option.innerText = country.name.common;
-        console.log(country.name.common)
-        countrySelect.appendChild(option);
+
+
         selectDestination.appendChild(option);
-        console.log(countrySelect)
+
         // add attribute to the option
 
-        console.log(option)
+
       }
   });
 
@@ -84,7 +95,21 @@ fetchCountries().then((data) => {
 
 
 
+// target selected option in countrySelect
+countrySelect.addEventListener("change", (event) => {
+  selectedOption = event.target.value;
+  console.log(selectedOption)
+  // display the currency code
+  currencyFrom.innerHTML = event.target.options[event.target.selectedIndex].getAttribute("data-attr-currency");
+});
 
+// target selected option in selectDestination
+selectDestination.addEventListener("change", (event) => {
+  selectedOptionDestination = event.target.value;
+  console.log(selectedOptionDestination);
+  // display the currency code
+  currencyTo.innerHTML = event.target.options[event.target.selectedIndex].getAttribute("data-attr-currency");
+});
 
 
 
