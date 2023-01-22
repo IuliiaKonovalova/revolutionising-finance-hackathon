@@ -18,17 +18,32 @@ const fetchCountries = async () => {
 fetchCountries().then((data) => {
 
   console.log(data)
-  const select = document.getElementById("countries-select");
+
+  const countrySelect = document.getElementById("countries-select");
+  const selectDestination = document.getElementById("destination-select");
   // Iterate through the list of countries and add an option for each one
   data.forEach(country => {
     // console.log(country)
     const option = document.createElement("option");
-    option.value = country.alpha2Code;
+    if (country.name.common === "United Kingdom") {
+      let currencyCodeKeys = Object.keys(country.currencies)
+      countrySelect.setAttribute("data-attr-currency", currencyCodeKeys[0])
+    } else {
+    option.value = country.altSpellings[0]
     option.innerText = country.name.common;
-    select.appendChild(option);
+    if (country.currencies === undefined) {
+      console.log("undefined")
+      return
+    } else {
+      console.log(country.currencies)
+          let currencyCodeKeys = Object.keys(country.currencies)
+          // get the values from currencyCodeKeys list
+          option.setAttribute("data-attr-currency", currencyCodeKeys[0])
+        }
+        countrySelect.appendChild(option);
+      }
+    
   });
-    const countrySelect = document.getElementById("countries-select");
-    const selectDestination = document.getElementById("destination-select");
     // Iterate through the list of countries and add an option for each one
 
     data.forEach(country => {
@@ -39,12 +54,6 @@ fetchCountries().then((data) => {
         // add data-attr-currency to the select
         let currencyCodeKeys = Object.keys(country.currencies)
         document.getElementById("country-from-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
-
-        // target country-to-selected
-        document.getElementById("country-to-selected").value = country.altSpellings[0]
-        document.getElementById("country-to-selected").innerText = country.name.common
-        document.getElementById("country-to-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
-
       } else {
         const option = document.createElement("option");
         if (country.currencies === undefined) {
