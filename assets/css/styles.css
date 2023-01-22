@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Quicksand:wght@300;400;500&display=swap');
 
-
-
 :root {
   --clr-accent--100: #f8fff8;
   --clr-accent--200: #f0fdf0;
@@ -16,7 +14,6 @@
   --fs: calc(60% + 0.8vmin);
   --ff-primary: 'Lato', sans-serif;
   --br: 0.5em;
-
   --br-btn: 0.2em;
   --br--links: 0.2em;
   --br-buttons: 0.2em;
@@ -59,7 +56,6 @@ main {
 }
 
 /* Navbar classes */
-
 .navbar-title {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.5em;
@@ -76,8 +72,13 @@ main {
   height: 100%;
 }
 
-.sub-title li {
-  margin-left: 6em;
+.navbar .sub-title {
+  margin-left: 5rem;
+}
+
+ul:not(.browser-default) {
+  padding-left: 3rem;
+  list-style-type: none;
 }
 
 .sub-title li span {
@@ -300,6 +301,13 @@ h3 {
   font-weight: 700;
 }
 
+
+.footer__section--logo ul:not(.browser-default),
+ul.collaborators:not(.browser-default) {
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
 .footer__team a,
 .footer__copyright {
   color: var(--clr-accent--900) !important;
@@ -307,6 +315,19 @@ h3 {
 
 .footer__team a:hover {
   color: var(--clr-accent--800);
+}
+
+@media (max-width: 992px) {
+
+  .footer__team,
+  .footer__section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -320,6 +341,9 @@ h3 {
     height: 30px;
     line-height: 30px;
   }
+
+
+
 }
 
 @media (max-width: 565px) {
