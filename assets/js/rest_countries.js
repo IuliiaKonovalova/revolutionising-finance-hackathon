@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const countrySelect = document.getElementById("countries-select");
 const selectDestination = document.getElementById("destination-select");
 const currencyFrom = document.getElementById("currency-from");
@@ -110,7 +109,6 @@ selectDestination.addEventListener("change", (event) => {
   console.log(selectedOptionDestination);
   // display the currency code
   currencyTo.innerHTML = event.target.options[event.target.selectedIndex].getAttribute("data-attr-currency");
-=======
 // Fetch the list of countries from the API
 fetch("https://restcountries.com/v3.1/all")
 .then(response => response.json())
@@ -132,12 +130,10 @@ fetch("https://restcountries.com/v3.1/all")
       option.innerText = country.name.common;
       selectDestination.appendChild(option);
   });
->>>>>>> 8919f10 (Add rest countries api information to select options)
 });
+})
 
 
-
-<<<<<<< HEAD
 
 
 
@@ -186,6 +182,4 @@ fetch("https://restcountries.com/v3.1/all")
 //   const currencyDisplay = document.getElementById("currency-display");
 //   currencyDisplay.innerHTML = `${currency.name}(${currency.symbol})`;
 //   <div id="currency-display"></div>
-// })
-=======
->>>>>>> 8919f10 (Add rest countries api information to select options)
+
