@@ -1,5 +1,7 @@
 # SmartVacation
 
+![am-i-responsive](/documentation/validation/amiresponsive%20design%20.jpg)
+
 ## Table of Content
 ​
 * [About](#about)
@@ -169,6 +171,7 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * [ExchangeRateAPI](https://app.exchangerate-api.com/dashboard) - for the data fetched by the network request for Currency Exchange.
 * [RESTCountriesAPI](https://restcountries.com/) - for the data fetched by the network request for Countries.
 * [AmadeusAPI](https://amadeus.com/en) - for the data fetched by the network request for travel information on cities.
+* [AmIResponive](https://ui.dev/amiresponsive) - for the responsive design photo of the web application.
 
 
 ## Acknowledgements
