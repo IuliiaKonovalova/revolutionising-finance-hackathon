@@ -15,8 +15,8 @@ let countries_data = [];
 const fetchCountries = async () => {
   const response = await fetch("https://restcountries.com/v3.1/all");
   const data = await response.json();
-  countries_data = [...data]
-  return countries_data
+  countries_data = [...data];
+  return countries_data;
 };
 
 fetchCountries().then((data) => {
@@ -27,15 +27,23 @@ fetchCountries().then((data) => {
       let currencyCodeKeys = Object.keys(country.currencies);
       countrySelect.setAttribute("data-attr-currency", currencyCodeKeys[0]);
       currencyFrom.innerHTML = currencyCodeKeys[0];
+      let currencyCodeKeys = Object.keys(country.currencies);
+      countrySelect.setAttribute("data-attr-currency", currencyCodeKeys[0]);
+      currencyFrom.innerHTML = currencyCodeKeys[0];
     } else {
+    option.value = country.altSpellings[0];
     option.value = country.altSpellings[0];
     option.innerText = country.name.common;
     if (country.currencies === undefined) {
       console.log("undefined");
       return;
+      console.log("undefined");
+      return;
     } else {
         let currencyCodeKeys = Object.keys(country.currencies);
+        let currencyCodeKeys = Object.keys(country.currencies);
         // get the values from currencyCodeKeys list
+        option.setAttribute("data-attr-currency", currencyCodeKeys[0]);
         option.setAttribute("data-attr-currency", currencyCodeKeys[0]);
       }
       countrySelect.appendChild(option);
@@ -52,14 +60,26 @@ fetchCountries().then((data) => {
       document.getElementById("country-to-selected").value = country.altSpellings[0];
       document.getElementById("country-to-selected").innerText = country.name.common;
       document.getElementById("country-to-selected").setAttribute("data-attr-currency", currencyCodeKeys[0]);
+      document.getElementById("country-from-selected").value = country.altSpellings[0];
+      document.getElementById("country-from-selected").innerText = country.name.common;
+      let currencyCodeKeys = Object.keys(country.currencies);
+      document.getElementById("country-from-selected").setAttribute("data-attr-currency", currencyCodeKeys[0]);
+      currencyTo.innerHTML = currencyCodeKeys[0];
+      document.getElementById("country-to-selected").value = country.altSpellings[0];
+      document.getElementById("country-to-selected").innerText = country.name.common;
+      document.getElementById("country-to-selected").setAttribute("data-attr-currency", currencyCodeKeys[0]);
     } else {
       const option = document.createElement("option");
       if (country.currencies === undefined) {
         console.log("undefined");
         return;
+        console.log("undefined");
+        return;
       } else {
         let currencyCodeKeys = Object.keys(country.currencies);
+        let currencyCodeKeys = Object.keys(country.currencies);
         // get the values from currencyCodeKeys list
+        option.setAttribute("data-attr-currency", currencyCodeKeys[0]);
         option.setAttribute("data-attr-currency", currencyCodeKeys[0]);
       }
       option.value = country.altSpellings[0];
@@ -67,6 +87,7 @@ fetchCountries().then((data) => {
       selectDestination.appendChild(option);
     }
   });
+});
 });
 
 // target selected option in countrySelect
