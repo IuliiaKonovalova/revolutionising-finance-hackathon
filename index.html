@@ -24,10 +24,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
   <!-- Css -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css">
 
   <!-- Title -->
-  <title></title>
+  <title>SmartVacations</title>
 
 </head>
 
@@ -42,12 +42,14 @@
 
         <!-- Logo -->
         <a href="#" class="logo__image brand-logo left responsive-img">
-          <img class="" src="assets/images/logo/logo3.png" alt="Logo">
+          <img src="assets/images/logo/logo3.png" alt="Logo">
         </a>
 
         <!-- Title/Link-->
         <ul id="nav-mobile" class="sub-title left hide-on-small">
-          <li><a class="" href="sass.html">SmartVacation</a></li>
+          <li>
+            <span>SmartVacation</span>
+          </li>
         </ul>
 
       </div>
@@ -66,7 +68,7 @@
         <div class="col s12 m6 left-align section__container--content">
           <h1 class="section__title green-text text-darken-3">
             Thinking about going abroad?
-          </h1>
+          </h2>
           <p>
             Looking to go abroad and safely know how to spend our money? Look no further than SmartVacation.
             Here we give you the option to freely find your currency exchange rate at your desired destination
@@ -109,7 +111,7 @@
 
     <!-- Form Design -->
 
-    <form class="container grid-margin-top">
+    <!-- <form class="container grid-margin-top">
       <label>Country of origin:
         <select id="fromCountry"></select>
       </label>
@@ -126,7 +128,7 @@
         <button type="button" class="green darken-3 btn-large btn" id="button-calculate">Convert</button>
       </div>
     </form>
-    <div id="result"></div>
+    <div id="result"></div> -->
 
 
     <!--ah-dev-branch-->
@@ -173,7 +175,7 @@
                 </div>
               </div>
             </form>
-            <div class="">
+            <div>
               <h3>You Have: <span id="result"></span></h3>
             </div>
           </div>
@@ -188,11 +190,11 @@
       <h1 class="center-align">Currency Converter</h1>
 
       <!-- Form -->
-      <form action="" id="form">
+      <form action="submit" id="form">
 
         <!-- Amount -->
         <div class="input-field col s12">
-          <input type="number" id="amount" placeholder="Enter amount" step=".0001" />
+          <input type="number" id="amount" placeholder="Enter amount" step=".0001">
         </div>
 
         <!-- "From" Currency 'X' -->
@@ -237,7 +239,7 @@
         <div class="input-field col s12">
           <form>
             <label for="amadeus-input">Enter a city:</label>
-            <input type="text" id="amadeus-input" name="amadeus-input" required />
+            <input type="text" id="amadeus-input" name="amadeus-input" required>
           </form>
         </div>
 

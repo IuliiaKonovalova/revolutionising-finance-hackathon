@@ -80,10 +80,12 @@ main {
   margin-left: 6em;
 }
 
-.sub-title li a {
+.sub-title li span {
   color: var(--clr-accent--900);
   font-size: 1.5rem;
   font-weight: 900;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* Content */
