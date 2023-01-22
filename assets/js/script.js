@@ -1,6 +1,7 @@
 let fromCountrySelect = document.getElementById("fromCountry");
 let toCountrySelect = document.getElementById("toCountry");
 let buttonCalculate = document.getElementById("button-calculate");
+
 // gets the api for countries to be picked by user
 // the api is non active just a dummy 
 fetch("https://api.exchangerate-api.com/v4/countries?apikey=your_api_key")
