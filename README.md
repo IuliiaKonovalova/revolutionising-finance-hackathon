@@ -12,17 +12,20 @@
     * [Languages](#languages)
     * [Frameworks and Libraries](#frameworks-and-libraries)
 * [Design](#design)
+  * [Wireframes](#wireframes)
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-* [Deployment & Usage](#deployment)
+* [Features](#features)
+    * [Future Features](#future-features)
 * [Testing](#testing)
+* [Development and deployment](#development-and-deployment)
+    * [Local Deployment](#local-deployment)
+    * [Deployment to GitHub](#deployment-to-github)
 * [Credits](#credits)
-  * [Code](#code)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgements](#acknowledgements)
+  * [Acknowledgments](#acknowledgements)
+  * [Collaborators](#collaborators)
+  * [Image Credits](#image-credits)
 
 # About 
 
@@ -98,9 +101,11 @@ Green color was chosen as the main color for the project due to the the fact tha
 
 To be added.
 
+
 ### Imagery
 
 All images that have been picked for this project have been chosen based on their relevancy to the theme at hand: finance and travel.
+
 
 ## Features
 
@@ -147,10 +152,6 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”.
 * The page refreshes and a website shall then deploy via a link.
 * The following is the live link deployed: https://iuliiakonovalova.github.io/revolutionising-finance-hackathon/
-
-### Forking
-
-To be added.
 
 
 ## Credits
