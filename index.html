@@ -42,20 +42,13 @@
 
         <!-- Logo -->
         <a href="#" class="logo__image brand-logo left responsive-img">
-
           <img class="" src="assets/images/logo/logo3.png" alt="Logo">
+        </a>
 
-          <img class="" src="/assets/images/logo/logo3.png" alt="Logo">
-
-          <a href="#" class="brand-logo">
-            <img class="responsive-img" src="assets/images/logo/logo3.png" alt="Logo">
-
-          </a>
-
-          <!-- Title/Link-->
-          <ul id="nav-mobile" class="sub-title left hide-on-small">
-            <li><a class="navbar-title" href="sass.html">SmartVacation</a></li>
-          </ul>
+        <!-- Title/Link-->
+        <ul id="nav-mobile" class="sub-title left hide-on-small">
+          <li><a class="" href="sass.html">SmartVacation</a></li>
+        </ul>
 
       </div>
     </nav>
@@ -68,9 +61,9 @@
 
     <!-- Top Grid Design -->
     <section class="section container grid-margin-top">
-      <div class="row section__container">
+      <div class="row section__container section__container--main">
         <!-- Top Content -->
-        <div class="col s12 m6 left-align section__container--content">
+        <div class="col s12 m6 left-align section__container--content  section__container--main">
           <h1 class="section__title green-text text-darken-3">
             Thinking about going abroad?
           </h1>
@@ -80,46 +73,38 @@
             and help you find the best places to go!
           </p>
           <div class="left-align btn__start">
-            <a class="green darken-3 btn-large btn ">
+            <a class="green darken-3 btn-large btn btn__started" href="#get-started">
               Get started
             </a>
           </div>
         </div>
         <!-- Top Image -->
-
-        <div class="col s12 m6 right-align section__image--container">
-
-          <div class="col s12 m6 right-align image-margin-top">
-
-            <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/globe.webp"
-              alt="Euros To Dollars">
-          </div>
+        <div class=" col s12 m6 right-align section__image--container">
+          <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/globe.webp"
+            alt="Euros To Dollars">
         </div>
+      </div>
     </section>
 
     <section class="container bottom-grid-margin-top">
       <div class="row section__container">
         <!-- Bottom Content -->
-
-        <div class="col s12 m6 left-align section__image--container">
-
-          <div class="col s12 m6 left-align">
-
-            <img class="responsive-img z-depth-2"
-              src="assets/images/landing-page-photos/pexels-currency-exchange-2.webp" alt="Euros To Dollars">
-          </div>
-          <!-- Bottom Image -->
-          <div class="col s12 m6 right-align ">
-            <h2 class="section__title green-text text-darken-3 ">
-              Look no further than us.
-            </h2>
-            <p>
-              Below you'll find our smartly devised application that allows you to calculate your currency exchange
-              and tell you about the next best place in your next best holiday place.
-              Have any questions? Don't be afraid to reach out either!
-            </p>
-          </div>
+        <div class="col m12 l6 left-align section__image--container">
+          <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/pexels-currency-exchange-2.webp"
+            alt="Euros To Dollars">
         </div>
+        <!-- Bottom Image -->
+        <div class="col s12 m6 right-align ">
+          <h2 class="section__title green-text text-darken-3 ">
+            Look no further than us.
+          </h2>
+          <p>
+            Below you'll find our smartly devised application that allows you to calculate your currency exchange
+            and tell you about the next best place in your next best holiday place.
+            Have any questions? Don't be afraid to reach out either!
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Form Design -->
@@ -145,44 +130,34 @@
 
 
     <!--ah-dev-branch-->
-    <div class="row valign-wrapper grid-margin-top">
+    <div class="row valign-wrapper grid-margin-top" id="get-started">
       <div class="col s8 offset-s2">
         <div class="card green lighten-1 z-depth-4">
           <div class="card-content black-text">
-            <span class="card-title align-center">Card Title</span>
+            <h3 class="card-title center-align green-text text-darken-4 calculator__title">Currency Calculator</h3>
             <form>
               <div class="card-content">
                 <div class="col l6 m12 block__input">
-
-                  <label class="label-style" for="countries-select">Select your country of origin</label>
+                  <label class="label-style" for="countries-select">From country:</label>
                   <select id="countries-select" class="browser-default col s4">
                     <option id="country-from-selected" value="" selected>Choose your country</option>
                   </select>
-
-                  <label class="label-style" for="fromCountry">Select your country of origin</label>
-                  <select id="country-select" class="browser-default col s4"></select>
-
                 </div>
                 <div class="col l6 s12 block__input">
                   <div class="block__currency--title">Currency</div>
-                  <div class="block__currency--input" id="currency-from"></div>
+                  <div class="block__currency--input" id="currency-from">N/A</div>
                 </div>
               </div>
               <div class="card-content">
                 <div class="col l6 m12 block__input">
-
                   <label class="label-style" for="destination-select">Where are you going?</label>
                   <select id="destination-select" class="browser-default col s4">
                     <option id="country-to-selected" value="" selected>Choose your country</option>
                   </select>
-
-                  <label class="label-style" for="toCountry">Where are you going?</label>
-                  <select id="destination-select" class="browser-default col s4"></select>
-
                 </div>
                 <div class="col l6 m12 block__input">
                   <div class="block__currency--title">Currency</div>
-                  <div id="currency-to" class="block__currency--input"></div>
+                  <div id="currency-to" class="block__currency--input">N/A</div>
                 </div>
               </div>
               <div class="card-content">
@@ -279,39 +254,49 @@
   </main>
 
   <!--Footer-->
-  <footer class="page-footer green lighten-3">
+  <footer class="page-footer green lighten-3 footer">
 
     <div class="container">
       <div class="row">
 
-
         <!-- 'Thank you' message -->
-        <div class="col l6 s12">
-          <h5 class="white-text"></h5>
-          <img class="" src="/assets/images/logo/logo3.png" alt="Logo">
-          <p class="grey-text text-lighten-4">Thank you for taking the time to view our web application.</p>
+        <div class="col l6 s12 footer__section">
+          <div class="footer__section--logo">
+
+            <!-- Logo -->
+            <a href="#" class="logo__image brand-logo left responsive-img">
+              <img class="" src="assets/images/logo/logo3.png" alt="Logo">
+            </a>
+
+            <!-- Title/Link-->
+            <ul id="logo__content" class="sub-title left hide-on-small">
+              <li><a class="" href="sass.html">SmartVacation</a></li>
+            </ul>
+
+          </div>
+          <p class="">Thank you for taking the time to view our web application.</p>
         </div>
 
         <!-- GitHub Collab. Links -->
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">GitHub Links Collaborators</h5>
+        <div class="col l4 offset-l2 s12 footer__team">
+          <h4 class="">GitHub Links Collaborators</h4>
           <ul>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/AlbinHall" target="_blank">Albin Hall</a>
+              <a class="" href="https://github.com/AlbinHall" target="_blank">Albin Hall</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/AVTpepper" target="_blank">Alexander
+              <a class="" href="https://github.com/AVTpepper" target="_blank">Alexander
                 Tastad</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/IuliiaKonovalova">Iulia Konovalova</a>
+              <a class="" href="https://github.com/IuliiaKonovalova">Iulia Konovalova</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/keironchaudhry" target="_blank">Keiron
+              <a class="" href="https://github.com/keironchaudhry" target="_blank">Keiron
                 Chaudhry</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/Rsrbai" target="_blank">Richard Bailey</a>
+              <a class="3" href="https://github.com/Rsrbai" target="_blank">Richard Bailey</a>
             </li>
           </ul>
         </div>
@@ -320,7 +305,7 @@
     </div>
 
     <!-- Copyright Text -->
-    <div class="footer-copyright center-align">
+    <div class="footer-copyright center-align footer__copyright">
       <div class="container">
         &copy;
         <script>
@@ -336,21 +321,9 @@
 
   <!-- Scripts -->
   <script type="module" src="assets/js/script.js"></script>
-
   <script type="module" src="assets/js/travel_advice.js"></script>
   <script type="module" src="assets/js/currency.js"></script>
   <script type="module" src="assets/js/rest_countries.js"></script>
-
-  <script type="module" src="assets/js/api_key_travel.js"></script>
-
-
-  <script type="module" src="assets/js/travel_advice.js"></script>
-
-  <script type="module" src="assets/js/travel_advice.js"></script>
-  <script type="module" src="assets/js/currency.js"></script>
-
-  <script type="module" src="assets/js/rest_countries.js"></script>
-
 </body>
 
 </html>
