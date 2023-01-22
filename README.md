@@ -12,17 +12,20 @@
     * [Languages](#languages)
     * [Frameworks and Libraries](#frameworks-and-libraries)
 * [Design](#design)
+  * [Wireframes](#wireframes)
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-* [Deployment & Usage](#deployment)
+* [Features](#features)
+    * [Future Features](#future-features)
 * [Testing](#testing)
+* [Development and deployment](#development-and-deployment)
+    * [Local Deployment](#local-deployment)
+    * [Deployment to GitHub](#deployment-to-github)
 * [Credits](#credits)
-  * [Code](#code)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgements](#acknowledgements)
+  * [Acknowledgments](#acknowledgements)
+  * [Collaborators](#collaborators)
+  * [Image Credits](#image-credits)
 
 # About 
 
@@ -98,9 +101,11 @@ Green color was chosen as the main color for the project due to the the fact tha
 
 To be added.
 
+
 ### Imagery
 
 All images that have been picked for this project have been chosen based on their relevancy to the theme at hand: finance and travel.
+
 
 ## Features
 
@@ -132,7 +137,7 @@ This repository can be cloned and run locally with the following steps:
 * Login to GitHub.
 * Select repository named: IuliiaKonovalova/revolutionising-finance-hackathon.
 * Click code toggle button and copy the url (i.e., https://github.com/IuliiaKonovalova/revolutionising-finance-hackathon.git).
-* In your IDE, open terminal and run the git clone command (i.e., `git clone https://github.com/keironchaudhry/p4-lingomeets.git`). The repository will now be cloned in your workspace.
+* In your IDE, open terminal and run the git clone command (i.e., `git clone https://github.com/IuliiaKonovalova/revolutionising-finance-hackathon.git`). The repository will now be cloned in your workspace.
 
 ### Deployment to GitHub
 
@@ -147,10 +152,6 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”.
 * The page refreshes and a website shall then deploy via a link.
 * The following is the live link deployed: https://iuliiakonovalova.github.io/revolutionising-finance-hackathon/
-
-### Forking
-
-To be added.
 
 
 ## Credits
