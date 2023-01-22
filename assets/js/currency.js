@@ -15,7 +15,7 @@ document.querySelector('#form').onsubmit = () => {
             function convert() {
                 return amount * rate;
             }
-            document.querySelector('#result').innerHTML = `${amount} ${currencyFromCountryValue} is equal to ${currencyToCountryValue} ${convert().toFixed(2)}`;
+            document.querySelector('#result').innerHTML = `<div class="currency__result--final">${amount} ${currencyFromCountryValue}</div> is equal to <div class="currency__result--final">${currencyToCountryValue} ${convert().toFixed(2)}</div>`;
         })
         .catch((error) => {
             console.log("Error: ", error);

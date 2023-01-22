@@ -167,7 +167,6 @@ form {
 .block__currency--input {
   border: none;
   font-weight: 900;
-  /* height: 4rem !important; */
   padding: 0.75em;
 }
 
@@ -216,6 +215,13 @@ label,
 
 ::placeholder {
   color: black;
+}
+
+.currency__result--final {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0.5em 0;
+  line-height: unset;
 }
 
 h3 {
