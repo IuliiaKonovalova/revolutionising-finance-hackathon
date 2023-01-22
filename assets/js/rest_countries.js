@@ -57,50 +57,12 @@ fetchCountries().then((data) => {
       } else {
         let currencyCodeKeys = Object.keys(country.currencies)
         // get the values from currencyCodeKeys list
-        let keyCurrencyCode = currencyCodeKeys[0];
-        console.log('keyCurrencyCode', keyCurrencyCode)
-        currencyCodeKeys.forEach(key => {
-          console.log('str', key)
-        })
-        document.getElementById("country-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
-        let selectedCurrency = document.getElementById("whatever");
-        let currency = country.currencies
-        selectedCurrency.innerHTML = country.currencies
-      } else {
-        console.log(country)
-        const option = document.createElement("option");
-        if (country.currencies === undefined) {
-          console.log("undefined")
-          return
-        } else {
-
-          // console.log(country.currencies)
-          console.log(country.currencies)
-
-          let currencyCodeKeys = Object.keys(country.currencies)
-          console.log('currencyCodeKeys', currencyCodeKeys)
-          // get the values from currencyCodeKeys list
-          let keyCurrencyCode = currencyCodeKeys[0];
-          console.log('keyCurrencyCode', keyCurrencyCode)
-          currencyCodeKeys.forEach(key => {
-            console.log('str', key)
-          })
-          option.setAttribute("data-attr-currency", currencyCodeKeys[0])
-          
-          console.log(currencyCodeKeys)
-            // for (const [key, value] of Object.entries(currencyCode)) {
-            //   console.log(`${key}: ${value}`);
-            // }
-            // console.log(currencyCode)
-        }
-        option.value = country.altSpellings[0];
-        console.log(country.altSpellings[0])
-        option.innerText = country.name.common;
-        selectDestination.appendChild(option);
-        // add attribute to the option
-
-        console.log(option)
+        option.setAttribute("data-attr-currency", currencyCodeKeys[0])
       }
+      option.value = country.altSpellings[0];
+      option.innerText = country.name.common;
+      selectDestination.appendChild(option);
+    }
   });
 })
 
