@@ -119,8 +119,16 @@ To be added.
 
 ## Testing
 
-To be added.
+### JS Validation
 
+- currency.js validation
+    ![currency.js](documentation/validation/currencyJShnt.png) 
+
+- rest_countries.js validation
+    ![rest_countries.js](documentation/validation/restCountriesJShnt.png)
+
+- travel_advice.js validation
+    ![travel_advice.js](documentation/validation/travelAdviceJKhnt.png)
 
 ## Development and deployment
 
