@@ -137,7 +137,7 @@
         <div class="card green lighten-1 z-depth-4">
           <div class="card-content black-text">
             <h3 class="card-title center-align green-text text-darken-4 calculator__title">Currency Calculator</h3>
-            <form>
+            <form id="form">
               <div class="card-content">
                 <div class="col l6 m12 block__input">
                   <label class="label-style" for="countries-select">From country:</label>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="col l6 m12 block__input">
                   <div class="block__currency--title">Currency</div>
-                  <div id="currency-to" class="block__currency--input">N/A</div>
+                  <div type="text" id="currency-to" class="block__currency--input">N/A</div>
                 </div>
               </div>
               <div class="card-content">
@@ -172,7 +172,7 @@
               </div>
               <div class="card-content">
                 <div class="col s12 l12 block__input">
-                  <button class="green darken-3 btn-large btn" type="button" id="button-calculate">Convert</button>
+                  <button class="green darken-3 btn-large btn" type="submit" id="button-calculate">Convert</button>
                 </div>
               </div>
             </form>
@@ -191,11 +191,11 @@
       <h1 class="center-align">Currency Converter</h1>
 
       <!-- Form -->
-      <form action="submit" id="form">
+      <form action="" id="form">
 
         <!-- Amount -->
         <div class="input-field col s12">
-          <input type="number" id="amount" placeholder="Enter amount" step=".0001">
+          <input type="number" id="amount" placeholder="Enter amount" step=".0001" />
         </div>
 
         <!-- "From" Currency 'X' -->
