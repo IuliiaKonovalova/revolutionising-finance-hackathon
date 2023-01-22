@@ -111,7 +111,94 @@ All images that have been picked for this project have been chosen based on thei
 
 ## Features
 
-To be added.
+The SmartVacations web application consists of a single landing page with diverse yet simple features. They are split into the following components:
+
+* Navigation bar
+* Information grid
+    * Top grid
+    * Bottom grid
+* Currency calculator
+* City attractions and prices
+    * Search results
+* Footer
+
+**Navigation bar**
+
+* Located at the top of the page, it includes the website brand name and logo.
+* Contains a light green background.
+
+![navbar](/documentation/features/navbar.jpg)
+
+**Information grid**
+
+* Top Grid
+
+    * Contains a large, eye-catching title
+    * Located below the navigation bar feature
+    * Serves as an introduction for the user
+    * Contains an image representing the theme of travelling
+    * Contains a 'Get Started' button, which brings user down to the currency calculator when clicked.
+
+    ![top-grid](/documentation/features/top%20grid.jpg)
+
+* Bottom Grid 
+
+    * Compliments the top grid for appealing user design
+    * Contains a large, eye-catching title
+    * Contains an image representing the theme of finance
+    * Contains further information for the user
+
+    ![bottom-grid](/documentation/features/bottom%20grid.jpg)
+
+**Currency calculator** 
+
+* Contained within a green coloured card. Green colour is slighter darker than navigation bar and footer to compliment colour design.
+* Contains a clear title for the Currency calculator.
+* Contains drop-down select feature for picking a resident country.
+* Contains automatic input that updates currency data from API based on picked country.
+* Contains a drop-down select feature for picking a go-to country.
+* Contains automatic input that updates currency data from API based on that same picked country.
+* Features an input bar where user enters the amount of money to convert
+* Contains 'Convert' button which carries out the calculation with the API currency data.
+
+![currency-calculator](/documentation/features/currency%20calculator.jpg)
+
+**City attractions and prices**
+
+* Contains a clear title that matches the colour scheme with a dark green colour.
+* Features an input field for users to enter their desired city destination
+* Features a 'Search' button which matches the colour scheme with a darker green colour.
+
+![city-attractions-and-prices](/documentation/features/travel%20API.jpg)
+
+* Also contains a loading icon when API is being requested and loaded.
+
+![loading](/documentation/features/loading....jpg)
+
+**City attractions and prices search results** 
+
+* Features a list of results relating to the searched city destination
+* Contains a title of the particular event or location popularly known in user search results
+* Contains a 'Sight' sub-title to inform user of search results
+* Contains a 'Go Somewhere' button that redirects users to a list of google results related to user searched item.
+* Information is contained within a card that corresponds with the colour scheme.
+
+![search-results](/documentation/features/search%20results%20travel%20api.jpg)
+
+**Footer**
+
+* Contains a colour design that corresponds to the web app colour scheme design
+* Green colour tone corresponds with that of the navigation bar so as to maintain colour scheme consistency.
+* Contains the logo of the brand
+    * Logo brand can be clicked on and returns user back to the top of the page, so as to maintain user-friendly design
+* Contains the brand name with a consistent design to the navigation bar
+* Features a 'Thank You' note
+* Features an alphabetical list of the collaborators on this project
+    * Each collaborator name can be clicked on to open a separate tab to their GitHub profile.
+* Contains a 'Copyright' section at the very bottom, with a slightly darker green tone design to compliment colour scheme.
+    * The 'Copyright' date has been created with a simple yet smart JavaScript code that allows it update itself automatically every coming year.
+
+![footer](/documentation/features/footer%20.jpg)
 
 
 ## Future features
