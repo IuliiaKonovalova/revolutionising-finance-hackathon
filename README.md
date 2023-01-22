@@ -132,7 +132,7 @@ This repository can be cloned and run locally with the following steps:
 * Login to GitHub.
 * Select repository named: IuliiaKonovalova/revolutionising-finance-hackathon.
 * Click code toggle button and copy the url (i.e., https://github.com/IuliiaKonovalova/revolutionising-finance-hackathon.git).
-* In your IDE, open terminal and run the git clone command (i.e., `git clone https://github.com/keironchaudhry/p4-lingomeets.git`). The repository will now be cloned in your workspace.
+* In your IDE, open terminal and run the git clone command (i.e., `git clone https://github.com/IuliiaKonovalova/revolutionising-finance-hackathon.git`). The repository will now be cloned in your workspace.
 
 ### Deployment to GitHub
 
