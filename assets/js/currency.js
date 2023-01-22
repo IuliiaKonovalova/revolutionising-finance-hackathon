@@ -22,4 +22,3 @@ document.querySelector('#form').onsubmit = () => {
         });
     return false;
 };
-};
