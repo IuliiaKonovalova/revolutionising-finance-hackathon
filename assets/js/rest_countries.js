@@ -64,6 +64,9 @@ fetchCountries().then((data) => {
           console.log('str', key)
         })
         document.getElementById("country-selected").setAttribute("data-attr-currency", currencyCodeKeys[0])
+        let selectedCurrency = document.getElementById("whatever");
+        let currency = country.currencies
+        selectedCurrency.innerHTML = country.currencies
       } else {
         console.log(country)
         const option = document.createElement("option");
