@@ -132,6 +132,9 @@ To be added.
 - travel_advice.js validation
     ![travel_advice.js](documentation/validation/travelAdviceJKhnt.png)
 
+- index.html validation
+    ![index.html](documentation/validation/htmlValidator.png)
+
 ## Development and deployment
 
 The development environment used for this project was GitPod and VSCode. 
