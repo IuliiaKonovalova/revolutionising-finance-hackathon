@@ -1,6 +1,6 @@
 const apiKey = "dc25Xb49AgAGTwWdnMICd4AbhXx3dAvh";
 const apiSecret = "6lZAsTw9hqhPPvgv";
-const grantType = "client_credentials";
+
 
 
 const amadeusInput = document.getElementById("amadeus-input");
@@ -22,9 +22,6 @@ const getLongLat = async (city) => {
     headers: longlatHeaders,
   });
   const longlatData = await longlatResponse.json();
-  console.log(longlatData);
-  console.log(longlatData[0].latitude);
-  console.log(longlatData[0].longitude);
   // check the type of longlatData[0].latitude
   console.log(typeof longlatData[0].latitude);
   // convert to integer
@@ -34,7 +31,7 @@ const getLongLat = async (city) => {
 };
 
 
-// const longlat = getLongLat();
+
 
 
 
@@ -51,13 +48,12 @@ const obtainToken = async () => {
       body: amadeusBody,
   });
   const amadeusData = await amadeusResponse.json();
-  console.log(amadeusData.access_token);
   return amadeusData.access_token;
 };
 
 
 const locationPois = async (lat, long) => {
-  const amadeusUrl = `https://test.api.amadeus.com/v1/reference-data/locations/pois?latitude=${lat}&longitude=${long}&radius=5`
+  const amadeusUrl = `https://test.api.amadeus.com/v1/reference-data/locations/pois?latitude=${lat}&longitude=${long}&radius=5`;
   const amadeusHeaders = {
     "Authorization": `Bearer ${await obtainToken()}`,
   };
@@ -66,17 +62,10 @@ const locationPois = async (lat, long) => {
     headers: amadeusHeaders,
   });
   const amadeusData = await amadeusResponse.json();
-  console.log(amadeusData.data);
   return amadeusData.data;
 };
 
-// const locations = locationPois(51.5072, -0.1275);
 
-// // Promise to get the latitude and longitude
-// getLongLat().then(() => {
-//   locationPois(latitude, longitude);
-// });
-// console.log(locations);
 
 // create a fetch request to the API
 const amadeusFetch = function() {
@@ -103,7 +92,6 @@ const amadeusFetch = function() {
     </div>
   </div>`;
   const city = amadeusInput.value;
-  console.log("city");
   if (city === "") {
     amadeusResult.innerHTML = `<div class="">
     <div class=" center-align red-text text-darken-3">
@@ -145,7 +133,7 @@ const amadeusFetch = function() {
     });
   });
 
-}
+};
 
 
 // add event listener to the button
