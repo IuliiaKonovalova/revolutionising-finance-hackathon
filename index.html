@@ -63,7 +63,7 @@
 
     <!-- Top Grid Design -->
     <section class="section container grid-margin-top">
-      <div class="row section__container">
+      <div class="row section__container section__container--main">
         <!-- Top Content -->
         <div class="col s12 m6 left-align section__container--content  section__container--main">
           <h2 class="section__title green-text text-darken-3">
@@ -75,13 +75,13 @@
             and help you find the best places to go!
           </p>
           <div class="left-align btn__start">
-            <a class="green darken-3 btn-large btn ">
+            <a class="green darken-3 btn-large btn btn__started" href="#get-started">
               Get started
             </a>
           </div>
         </div>
         <!-- Top Image -->
-        <div class="col s12 m6 right-align section__image--container">
+        <div class=" col s12 m6 right-align section__image--container">
           <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/globe.webp"
             alt="Euros To Dollars">
         </div>
@@ -91,7 +91,7 @@
     <section class="container bottom-grid-margin-top">
       <div class="row section__container">
         <!-- Bottom Content -->
-        <div class="col s12 m6 left-align section__image--container">
+        <div class="col m12 l6 left-align section__image--container">
           <img class="responsive-img z-depth-2" src="assets/images/landing-page-photos/pexels-currency-exchange-2.webp"
             alt="Euros To Dollars">
         </div>
@@ -132,7 +132,7 @@
 
 
     <!--ah-dev-branch-->
-    <div class="row valign-wrapper grid-margin-top">
+    <div class="row valign-wrapper grid-margin-top" id="get-started">
       <div class="col s8 offset-s2">
         <div class="card green lighten-1 z-depth-4">
           <div class="card-content black-text">
@@ -140,9 +140,9 @@
             <form id="form">
               <div class="card-content">
                 <div class="col l6 m12 block__input">
-                  <label class="label-style" for="fromCountry">Select your country of origin</label>
-                  <select id="country-select" class="browser-default col s4">
-                    <option id="country-selected" value="" selected>Choose your country</option>
+                  <label class="label-style" for="countries-select">From country:</label>
+                  <select id="countries-select" class="browser-default col s4">
+                    <option id="country-from-selected" value="" selected>Choose your country</option>
                   </select>
                 </div>
                 <div class="col l6 s12 block__input">
@@ -152,8 +152,10 @@
               </div>
               <div class="card-content">
                 <div class="col l6 m12 block__input">
-                  <label class="label-style" for="toCountry">Where are you going?</label>
-                  <select id="destination-select" class="browser-default col s4"></select>
+                  <label class="label-style" for="destination-select">Where are you going?</label>
+                  <select id="destination-select" class="browser-default col s4">
+                    <option id="country-to-selected" value="" selected>Choose your country</option>
+                  </select>
                 </div>
                 <div class="col l6 m12 block__input">
                   <div class="block__currency--title">Currency</div>
@@ -189,11 +191,11 @@
       <h1 class="center-align">Currency Converter</h1>
 
       <!-- Form -->
-      <form action="submit" id="form">
+      <form action="" id="form">
 
         <!-- Amount -->
         <div class="input-field col s12">
-          <input type="number" id="amount" placeholder="Enter amount" step=".0001">
+          <input type="number" id="amount" placeholder="Enter amount" step=".0001" />
         </div>
 
         <!-- "From" Currency 'X' -->
@@ -254,7 +256,7 @@
   </main>
 
   <!--Footer-->
-  <footer class="page-footer green lighten-3">
+  <footer class="page-footer green lighten-3 footer">
 
     <div class="container">
       <div class="row">
@@ -296,7 +298,7 @@
                 Chaudhry</a>
             </li>
             <li>
-              <a class="grey-text text-lighten-3" href="https://github.com/Rsrbai" target="_blank">Richard Bailey</a>
+              <a class="3" href="https://github.com/Rsrbai" target="_blank">Richard Bailey</a>
             </li>
           </ul>
         </div>
@@ -305,7 +307,7 @@
     </div>
 
     <!-- Copyright Text -->
-    <div class="footer-copyright center-align">
+    <div class="footer-copyright center-align footer__copyright">
       <div class="container">
         &copy;
         <script>
@@ -326,5 +328,4 @@
   <script type="module" src="assets/js/rest_countries.js"></script>
 </body>
 
-</html>
 </html>

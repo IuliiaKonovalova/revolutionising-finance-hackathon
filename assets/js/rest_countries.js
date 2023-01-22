@@ -1,3 +1,5 @@
+
+
 const countrySelect = document.getElementById("countries-select");
 const selectDestination = document.getElementById("destination-select");
 const currencyFrom = document.getElementById("currency-from");
@@ -12,7 +14,6 @@ const fetchCountries = async () => {
   const response = await fetch("https://restcountries.com/v3.1/all");
   const data = await response.json();
   countries_data = [...data]
-  console.log(countries_data)
   return countries_data
 };
 
