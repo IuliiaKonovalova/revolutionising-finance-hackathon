@@ -1,3 +1,5 @@
+
+
 const countrySelect = document.getElementById("countries-select");
 const selectDestination = document.getElementById("destination-select");
 const currencyFrom = document.getElementById("currency-from");
