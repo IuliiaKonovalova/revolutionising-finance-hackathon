@@ -97,7 +97,7 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 - [NinjaAPI](https://ninja-api.com/): used to fetch the longitude and latitude data from the city name.
 - [AmadeusAPI](https://amadeus.com/en): used to fetch the travel data (city and activities).
 - [W3C Validator](https://validator.w3.org/): was used to validate HTML5 code for the website.
-- [W3C CSS validator](https://jigsaw.w3.org/css-validator/): was used to validate CSS code for the website.
+- [{CSS} Portal](https://www.cssportal.com/css-validator/): was used to validate CSS code for the website.
 - [JShint](https://jshint.com/): was used to validate the JS code for the website.
 [GitHub](https://github.com/): used to host the website's source code.
 - [VSCode](https://code.visualstudio.com/): the IDE used to develop the website.
@@ -318,6 +318,10 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * [RESTCountriesAPI](https://restcountries.com/) - for the data fetched by the network request for Countries.
 * [AmadeusAPI](https://amadeus.com/en) - for the data fetched by the network request for travel information on cities.
 * [AmIResponive](https://ui.dev/amiresponsive) - for the responsive design photo of the web application.
+* [GitHub](https://github.com/)- for the development environment used for this project and hosting service for the README.md file.
+* [GitPod](https://www.gitpod.io/) - for the development environment used for this project.
+* [VSCode](https://code.visualstudio.com/) - for the development environment used for this project.
+
 
 
 ## Acknowledgements
