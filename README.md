@@ -78,14 +78,36 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 
 ### Languages
 
-* [HTML5](https://www.w3schools.com/html/)
-* [CSS3](https://www.w3schools.com/css/)
-* [JavaScript](https://www.javascript.com/)
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+- [JS](https://www.javascript.com/): the primary language used to develop the client side of the website.
+
 
 
 ### Frameworks and libraries
 
-* [MaterializeCSS](https://materializecss.com/)
+* [MaterializeCSS](https://materializecss.com/): a modern responsive front-end framework based on Material Design.
+
+### Other tools
+
+- [Git](https://git-scm.com/): the version control system used to manage the code.
+- [RESTCountriesAPI](https://restcountries.com/): used to fetch the country data (name and currency).
+- [ExchangeRateAPI](https://app.exchangerate-api.com/dashboard): used to fetch the exchange rate data.
+- [NinjaAPI](https://ninja-api.com/): used to fetch the longitude and latitude data from the city name.
+- [AmadeusAPI](https://amadeus.com/en): used to fetch the travel data (city and activities).
+- [W3C Validator](https://validator.w3.org/): was used to validate HTML5 code for the website.
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/): was used to validate CSS code for the website.
+- [JShint](https://jshint.com/): was used to validate the JS code for the website.
+[GitHub](https://github.com/): used to host the website's source code.
+- [VSCode](https://code.visualstudio.com/): the IDE used to develop the website.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): was used for debugging the website.
+- [Font Awesome](https://fontawesome.com/): was used to create the icons used in the website.
+- [Favicon Generator. For real.](https://realfavicongenerator.net/): for providing a free platform to generate favicons.
+- [Adobe Illustrator](https://www.adobe.com/au/products/illustrator.html?sdid=TTGWL8CS&mv=search&ef_id=Cj[…]Mw01BhF8_wBquCngqzn4MreNugw_lYfimZRDOCGwbgzjYaReBoCzC0QAvD_BwE) to build own SVG images.
+- [Balsamiq](https://balsamiq.com/) to create wireframes.
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
+- [GoFullPage](https://gofullpage.com/): for allowing to create free full web page screenshots;
 
 ## Design
 
