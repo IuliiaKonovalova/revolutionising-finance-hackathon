@@ -105,7 +105,7 @@ const amadeusFetch = function() {
         <div class="card-content">
           <h5 class="card-title sightseeing__cards--title">${poi.name}</h5>
           <p class="card-text">${poi.category}</p>
-          <a href="https://www.google.com/search?q=${poi.name}" class="btn btn-primary green lighten-1 go-somewhere-btn" target="_blank">Go somewhere</a>
+          <a href="https://www.google.com/search?q=${poi.name}" class="btn btn-primary green lighten-1 go-somewhere-btn" target="_blank">Search Prices</a>
         </div>
       </div>`);
       });
