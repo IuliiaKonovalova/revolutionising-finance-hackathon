@@ -78,20 +78,48 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 
 ### Languages
 
-* [HTML5](https://www.w3schools.com/html/)
-* [CSS3](https://www.w3schools.com/css/)
-* [JavaScript](https://www.javascript.com/)
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+- [JS](https://www.javascript.com/): the primary language used to develop the client side of the website.
+
 
 
 ### Frameworks and libraries
 
-* [MaterializeCSS](https://materializecss.com/)
+* [MaterializeCSS](https://materializecss.com/): a modern responsive front-end framework based on Material Design.
+
+### Other tools
+
+- [Git](https://git-scm.com/): the version control system used to manage the code.
+- [RESTCountriesAPI](https://restcountries.com/): used to fetch the country data (name and currency).
+- [ExchangeRateAPI](https://app.exchangerate-api.com/dashboard): used to fetch the exchange rate data.
+- [NinjaAPI](https://ninja-api.com/): used to fetch the longitude and latitude data from the city name.
+- [AmadeusAPI](https://amadeus.com/en): used to fetch the travel data (city and activities).
+- [W3C Validator](https://validator.w3.org/): was used to validate HTML5 code for the website.
+- [{CSS} Portal](https://www.cssportal.com/css-validator/): was used to validate CSS code for the website.
+- [JShint](https://jshint.com/): was used to validate the JS code for the website.
+[GitHub](https://github.com/): used to host the website's source code.
+- [VSCode](https://code.visualstudio.com/): the IDE used to develop the website.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): was used for debugging the website.
+- [Font Awesome](https://fontawesome.com/): was used to create the icons used in the website.
+- [Favicon Generator. For real.](https://realfavicongenerator.net/): for providing a free platform to generate favicons.
+- [Adobe Illustrator](https://www.adobe.com/au/products/illustrator.html?sdid=TTGWL8CS&mv=search&ef_id=Cj[…]Mw01BhF8_wBquCngqzn4MreNugw_lYfimZRDOCGwbgzjYaReBoCzC0QAvD_BwE) to build own SVG images.
+- [Balsamiq](https://balsamiq.com/) to create wireframes.
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
+- [GoFullPage](https://gofullpage.com/): for allowing to create free full web page screenshots;
 
 ## Design
 
 ### Wireframes
 
-[Wireframes](documentation/wireframes/hackathon_jan_20223.pdf)
+[Mobile and Desktop Wireframes](documentation/wireframes/hackathon_jan_20223.pdf)
+
+#### Notes:
+
+* The wireframes were created using Balsamiq.
+* The wireframes were created for mobile and desktop versions of the website.
+* The wireframes were created to show the basic layout of the website and provide a guide for the development of the website.
 
 ### Color Scheme
 
@@ -101,8 +129,15 @@ Green color was chosen as the main color for the project due to the the fact tha
 
 ### Typography
 
-To be added.
+The fonts used in this project are:
 
+  - [Lato](https://fonts.google.com/specimen/Lato?query=lato&preview.text=Earth%20Protectors&preview.text_type=custom)
+
+
+![Lato](documentation/design/lato.png)
+
+
+Lato is sans serif typeface and works well in contrast to the header/title font, providing balance while maintaining a modern, simple appearance. Lato font also increase readability and legibility of the text throughout the website. It is highly important to provide the user with a good reading experience as it will help them to understand the content of the website.
 
 ### Imagery
 
@@ -215,7 +250,22 @@ The SmartVacations web application consists of a single landing page with divers
 
 ## Testing
 
-### JS Validation
+### Code Validation:
+
+#### HTML Validation
+
+- index.html validation
+    ![index.html](documentation/validation/html_validation.png)
+
+#### CSS Validation
+
+- Official CSS validation website did not work at the time of weekends testing [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
+    ![css validation](documentation/validation/css_validation_error.png)
+
+- CSS validation through [{CSS} Portal](https://www.cssportal.com/css-validator/). According to validation report, there are no errors in the CSS code and only multiple warnings regarding the use of `!important` and root's variable usage. Regardless, the website is still fully functional and responsive.
+    ![css validation](documentation/validation/css_validation.png)
+
+#### JS Validation
 
 - currency.js validation
     ![currency.js](documentation/validation/currencyJShnt.png) 
@@ -226,8 +276,31 @@ The SmartVacations web application consists of a single landing page with divers
 - travel_advice.js validation
     ![travel_advice.js](documentation/validation/travelAdviceJKhnt.png)
 
-- index.html validation
-    ![index.html](documentation/validation/htmlValidator.png)
+
+### Responsiveness
+
+- The website has been tested on multiple devices and browsers to ensure responsiveness and compatibility.
+- The website has been tested on the following devices:
+    - Desktop
+    - Laptop
+    - Tablet
+    - Mobile
+The responsiveness report was created using [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en)
+
+- [responsiveness report](documentation/testing/responsiveness_report.pdf)
+
+### Compatibility
+
+- The website has been tested on the following browsers:
+    - Chrome
+    - Firefox
+    - Brave
+
+- [compatibility report](documentation/testing/compatibility_report.pdf)
+
+### LightHouse
+
+![lighthouse](documentation/testing/lighthouse.png)
 
 ## Development and deployment
 
@@ -269,6 +342,10 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * [RESTCountriesAPI](https://restcountries.com/) - for the data fetched by the network request for Countries.
 * [AmadeusAPI](https://amadeus.com/en) - for the data fetched by the network request for travel information on cities.
 * [AmIResponive](https://ui.dev/amiresponsive) - for the responsive design photo of the web application.
+* [GitHub](https://github.com/)- for the development environment used for this project and hosting service for the README.md file.
+* [GitPod](https://www.gitpod.io/) - for the development environment used for this project.
+* [VSCode](https://code.visualstudio.com/) - for the development environment used for this project.
+
 
 
 ## Acknowledgements
