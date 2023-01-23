@@ -277,6 +277,17 @@ The SmartVacations web application consists of a single landing page with divers
     ![travel_advice.js](documentation/validation/travelAdviceJKhnt.png)
 
 
+### Responsiveness
+
+- The website has been tested on multiple devices and browsers to ensure responsiveness and compatibility.
+- The website has been tested on the following devices:
+    - Desktop
+    - Laptop
+    - Tablet
+    - Mobile
+The responsiveness report was created using [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en)
+
+- [responsiveness report](documentation/testing/responsiveness_report.pdf)
 
 ## Development and deployment
 
