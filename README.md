@@ -129,8 +129,15 @@ Green color was chosen as the main color for the project due to the the fact tha
 
 ### Typography
 
-To be added.
+The fonts used in this project are:
 
+  - [Lato](https://fonts.google.com/specimen/Lato?query=lato&preview.text=Earth%20Protectors&preview.text_type=custom)
+
+
+![Lato](documentation/design/lato.png)
+
+
+Lato is sans serif typeface and works well in contrast to the header/title font, providing balance while maintaining a modern, simple appearance. Lato font also increase readability and legibility of the text throughout the website. It is highly important to provide the user with a good reading experience as it will help them to understand the content of the website.
 
 ### Imagery
 
