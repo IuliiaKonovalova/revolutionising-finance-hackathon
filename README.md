@@ -298,6 +298,10 @@ The responsiveness report was created using [Responsive Viewer](https://chrome.g
 
 - [compatibility report](documentation/testing/compatibility_report.pdf)
 
+### LightHouse
+
+![lighthouse](documentation/testing/lighthouse.png)
+
 ## Development and deployment
 
 The development environment used for this project was GitPod and VSCode. 
