@@ -113,7 +113,13 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 
 ### Wireframes
 
-[Wireframes](documentation/wireframes/hackathon_jan_20223.pdf)
+[Mobile and Desktop Wireframes](documentation/wireframes/hackathon_jan_20223.pdf)
+
+#### Notes:
+
+* The wireframes were created using Balsamiq.
+* The wireframes were created for mobile and desktop versions of the website.
+* The wireframes were created to show the basic layout of the website and provide a guide for the development of the website.
 
 ### Color Scheme
 
