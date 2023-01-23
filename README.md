@@ -112,6 +112,8 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 ---
 ## Design
 
+The design of the application is based on the Material Design principles. The central theme of the application is the simplicity of use. Thus, all the components are designed to be easy to use. The minimalistic approach was used to create something meaningful without moving out of focus. 
+
 ### Wireframes
 
 [Mobile and Desktop Wireframes](documentation/wireframes/hackathon_jan_20223.pdf)
