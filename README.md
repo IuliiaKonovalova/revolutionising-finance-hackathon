@@ -235,7 +235,7 @@ The development environment used for this project was GitPod and VSCode.
 
 Each software developer on the team created their own individual branch divergent from `main` from the get-go and have communicated via Slack to collaborate, pitch ideas, fix bugs and talk about relevant Pull Requests. Regular commits and pushes to Github have been employed to be able to track and trace the development process of the web application.
 
-For local deployments instructions shall be written below, along with instructions with deployment to Heroku, the hosting service used to deploy this particular website. Heroku was chosen as the hosting service due to its database maintenance capabilities.
+For local deployments instructions shall be written below, along with instructions with deployment to GitHub Pages, the hosting service used to deploy this particular website.
 
 ### Local Deployment
 
