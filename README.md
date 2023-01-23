@@ -28,8 +28,8 @@
   * [Acknowledgments](#acknowledgements)
   * [Collaborators](#collaborators)
   * [Image Credits](#image-credits)
-
-# About 
+---
+## About 
 
 SmartVacation is a web application designed for mature adults who are wanting to travel to a particular destination and know more about the currency type, currency exchange rate against their native currency and find out what there is to do in their travel destination.
 
@@ -37,7 +37,7 @@ This project has been created as part of the Code Institute Hack-a-Thon January 
 
 [Click here for deployed website.](https://iuliiakonovalova.github.io/revolutionising-finance-hackathon/)
 
-
+---
 ## User Experience Design
 
 * The initial user design was that users of the web app would be able to use APIs to: 
@@ -73,6 +73,7 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 * As a Frequent User, I want to be able to use a reliable app on my desktop and mobile.
 * As a Frequent User, I want to be able to comfortably use web app without any errors.
 
+---
 
 ## Technologies Used
 
@@ -108,8 +109,10 @@ Travelling enthusiasts and individuals that want to be able to find out more abo
 - [Balsamiq](https://balsamiq.com/) to create wireframes.
 - [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
 - [GoFullPage](https://gofullpage.com/): for allowing to create free full web page screenshots;
-
+---
 ## Design
+
+The design of the application is based on the Material Design principles. The central theme of the application is the simplicity of use. Thus, all the components are designed to be easy to use. The minimalistic approach was used to create something meaningful without moving out of focus. 
 
 ### Wireframes
 
@@ -143,7 +146,7 @@ Lato is sans serif typeface and works well in contrast to the header/title font,
 
 All images that have been picked for this project have been chosen based on their relevancy to the theme at hand: finance and travel.
 
-
+---
 ## Features
 
 The SmartVacations web application consists of a single landing page with diverse yet simple features. They are split into the following components:
@@ -235,7 +238,7 @@ The SmartVacations web application consists of a single landing page with divers
 
 ![footer](/documentation/features/footer%20.jpg)
 
-
+---
 ## Future features
 
 - Adding a feature for estimating savings through cryptocurrency / index markets.
@@ -246,10 +249,48 @@ The SmartVacations web application consists of a single landing page with divers
 - Live currency exchange charts.
 - Currency / cryptocurrency historical charts readily available.
 
-
+---
 
 ## Testing
 
+### Testing User Stories
+
+| **First Time Visitor Goals User Stories** | Comments | Testing |
+| :--- | :--- | :--- |
+| As a First Time Visitor, I want to be able to view the navigation bar brand logo and information. | Navigation bar is present on all pages. | Pass |
+| As a First Time Visitor, I want to be able to find useful information in the footer. | Footer is present on all pages. | Pass |
+| As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about it. | The information is presented in a clear and concise manner. | Pass |
+| As a First Time Visitor, I want to be able to easily navigate throughout the web app with a consistent design. | The content split into different blocks with a consistent design. | Pass |
+| As a First Time Visitor, I want to be able to find content related to the web app and its services. | Each section provides information about the web app and its services. | Pass |
+|As a First Time Visitor, I want to look for information about the company and the team behind it. | Footer is present on all pages. | Pass |
+| As a First Time Visitor, I want to be able to easily get in touch with the company with any questions I may have. | The footer contains a Collaborators section with links to their GitHub profiles. | Pass |
+| As a First Time Visitor, I want to find the app useful, consistent and easy to use. | the app provides a consistent design and is easy to use and understand. | Pass |
+
+| **Frequent User Goals User Stories** | Comments | Testing |
+| :--- | :--- | :--- |
+| As a Frequent User, I want to be able to easily get the currency of a country I need. | Currency calculator is present that provides the currency of a chosen country. | Pass |
+| As a Frequent User, I want to be able to easily get the exchange rate for the currency I need. | Currency calculator is present and provides the exchange rate for the currency of a chosen country. | Pass |
+| As a Frequent User, I want to get travelling advice for the places I want to visit and estimate the cost of my trip in advance. | * Travel API is present on all pages and provides information about the places I want to visit in a chosen city. | Pass|
+| As a Frequent User, I want to be able to use a reliable app on my desktop and mobile. | The app is fully responsive and works on all devices. | Pass |
+| As a Frequent User, I want to be able to comfortably use web app without any errors. | The app is fully functional and works without any errors. | Pass |
+
+
+### Testing Features
+
+| **Feature** | Comments | Testing |
+| :--- | :--- | :--- |
+| Get started button | Button is present on the landing page and redirects user to the currency calculator. | Pass |
+| Currency calculator |  | |
+| From Country select | Selecting a country from the dropdown menu changes the currency symbol. | Pass |
+| To Country select | Selecting a country from the dropdown menu changes the currency symbol. | Pass |
+| Amount input | Inputting a number changes the amount in the To Country currency. | Pass |
+| Convert button | Button is present and changes the amount in the To Country currency. | Pass |
+| City attractions and prices search |  | |
+| City input | Inputting a city name and clicking search button changes the search results. | Pass |
+| Search Price button | Button is present and redirects user to the search results to the google search results with the name of an attraction and price options. | Pass |
+| Footer |  | |
+| Brand logo | Brand logo is present and redirects user to the top of the page. | Pass |
+| Collaborators links | Links are present and redirect user to the collaborators GitHub profiles. | Pass |
 ### Code Validation:
 
 #### HTML Validation
@@ -302,6 +343,8 @@ The responsiveness report was created using [Responsive Viewer](https://chrome.g
 
 ![lighthouse](documentation/testing/lighthouse.png)
 
+---
+
 ## Development and deployment
 
 The development environment used for this project was GitPod and VSCode. 
@@ -333,7 +376,7 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * The page refreshes and a website shall then deploy via a link.
 * The following is the live link deployed: https://iuliiakonovalova.github.io/revolutionising-finance-hackathon/
 
-
+---
 ## Credits
 
 * [Adobe](https://www.adobe.com/creativecloud/design/hub/guides/meaning-of-green-in-design#:~:text=Associated%20with%20nature%20and%20positivity,as%20your%20design's%20primary%20color.) - for information regarding the meaning of 'green' in design.
@@ -346,13 +389,22 @@ The procedure for deployment followed the "Creating your site" steps provided in
 * [GitPod](https://www.gitpod.io/) - for the development environment used for this project.
 * [VSCode](https://code.visualstudio.com/) - for the development environment used for this project.
 
+## Image Credits
 
+* For images displayed in grid contents:
+
+    [Pexels](https://www.pexels.com/):
+
+    - Image 1: https://www.pexels.com/photo/person-holding-world-globe-facing-mountain-346885/
+    - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
+
+---
 
 ## Acknowledgements
 
 A big thank you to the Code Institute Hack-a-Thon team for voluntarily organising these brilliant events that challenges us software developers to be able to continuously learn, grow and collaborate with other like-minded developers. 
 
-
+---
 ## Collaborators
 
 Our team is made up of a wonderful group of people from around the world - all of which are either past or present students of the [Code Institue](https://codeinstitute.net/global/)
@@ -362,12 +414,3 @@ Our team is made up of a wonderful group of people from around the world - all o
 - Iuliia Konovalova - [Github](https://github.com/IuliiaKonovalova)
 - Keiron Liam Chaudhry - [Github](https://github.com/keironchaudhry)
 - Richard Bailey [Github](https://github.com/Rsrbai)
-
-
-## Image Credits
-
-* For images displayed in grid contents:
-
-    [Pexels](https://www.pexels.com/):
-    - Image 1: https://www.pexels.com/photo/person-holding-world-globe-facing-mountain-346885/
-    - Image 2: https://www.pexels.com/photo/person-holding-10-and-10-euro-banknotes-3943746/
