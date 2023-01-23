@@ -251,17 +251,24 @@ The SmartVacations web application consists of a single landing page with divers
 
 ## Testing
 
-| First Time Visitor Goals User Stories | Comments | Testing |
+| **First Time Visitor Goals User Stories** | Comments | Testing |
 | :--- | :--- | :--- |
-| As a First Time Visitor, I want to be able to view the navigation bar brand logo and information. | * Navigation bar is present on all pages. | Pass |
-| As a First Time Visitor, I want to be able to find useful information in the footer. | * Footer is present on all pages. | Pass |
+| As a First Time Visitor, I want to be able to view the navigation bar brand logo and information. | Navigation bar is present on all pages. | Pass |
+| As a First Time Visitor, I want to be able to find useful information in the footer. | Footer is present on all pages. | Pass |
 | As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about it. | The information is presented in a clear and concise manner. | Pass |
 | As a First Time Visitor, I want to be able to easily navigate throughout the web app with a consistent design. | The content split into different blocks with a consistent design. | Pass |
 | As a First Time Visitor, I want to be able to find content related to the web app and its services. | Each section provides information about the web app and its services. | Pass |
-|As a First Time Visitor, I want to look for information about the company and the team behind it. | * Footer is present on all pages. | Pass |
+|As a First Time Visitor, I want to look for information about the company and the team behind it. | Footer is present on all pages. | Pass |
 | As a First Time Visitor, I want to be able to easily get in touch with the company with any questions I may have. | The footer contains a Collaborators section with links to their GitHub profiles. | Pass |
 | As a First Time Visitor, I want to find the app useful, consistent and easy to use. | the app provides a consistent design and is easy to use and understand. | Pass |
 
+| **Frequent User Goals User Stories** | Comments | Testing |
+| :--- | :--- | :--- |
+| As a Frequent User, I want to be able to easily get the currency of a country I need. | Currency calculator is present that provides the currency of a chosen country. | Pass |
+| As a Frequent User, I want to be able to easily get the exchange rate for the currency I need. | Currency calculator is present and provides the exchange rate for the currency of a chosen country. | Pass |
+| As a Frequent User, I want to get travelling advice for the places I want to visit and estimate the cost of my trip in advance. | * Travel API is present on all pages and provides information about the places I want to visit in a chosen city. | Pass|
+| As a Frequent User, I want to be able to use a reliable app on my desktop and mobile. | The app is fully responsive and works on all devices. | Pass |
+| As a Frequent User, I want to be able to comfortably use web app without any errors. | The app is fully functional and works without any errors. | Pass |
 
 ### Code Validation:
 
