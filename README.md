@@ -250,7 +250,22 @@ The SmartVacations web application consists of a single landing page with divers
 
 ## Testing
 
-### JS Validation
+### Code Validation:
+
+#### HTML Validation
+
+- index.html validation
+    ![index.html](documentation/validation/html_validation.png)
+
+#### CSS Validation
+
+- Official CSS validation website did not work at the time of weekends testing [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
+    ![css validation](documentation/validation/css_validation_error.png)
+
+- CSS validation through [{CSS} Portal](https://www.cssportal.com/css-validator/). According to validation report, there are no errors in the CSS code and only multiple warnings regarding the use of `!important` and root's variable usage. Regardless, the website is still fully functional and responsive.
+    ![css validation](documentation/validation/css_validation.png)
+
+#### JS Validation
 
 - currency.js validation
     ![currency.js](documentation/validation/currencyJShnt.png) 
@@ -261,8 +276,7 @@ The SmartVacations web application consists of a single landing page with divers
 - travel_advice.js validation
     ![travel_advice.js](documentation/validation/travelAdviceJKhnt.png)
 
-- index.html validation
-    ![index.html](documentation/validation/htmlValidator.png)
+
 
 ## Development and deployment
 
