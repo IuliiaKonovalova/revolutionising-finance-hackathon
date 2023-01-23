@@ -253,6 +253,8 @@ The SmartVacations web application consists of a single landing page with divers
 
 ## Testing
 
+### Testing User Stories
+
 | **First Time Visitor Goals User Stories** | Comments | Testing |
 | :--- | :--- | :--- |
 | As a First Time Visitor, I want to be able to view the navigation bar brand logo and information. | Navigation bar is present on all pages. | Pass |
@@ -272,6 +274,23 @@ The SmartVacations web application consists of a single landing page with divers
 | As a Frequent User, I want to be able to use a reliable app on my desktop and mobile. | The app is fully responsive and works on all devices. | Pass |
 | As a Frequent User, I want to be able to comfortably use web app without any errors. | The app is fully functional and works without any errors. | Pass |
 
+
+### Testing Features
+
+| **Feature** | Comments | Testing |
+| :--- | :--- | :--- |
+| Get started button | Button is present on the landing page and redirects user to the currency calculator. | Pass |
+| Currency calculator |  | |
+| From Country select | Selecting a country from the dropdown menu changes the currency symbol. | Pass |
+| To Country select | Selecting a country from the dropdown menu changes the currency symbol. | Pass |
+| Amount input | Inputting a number changes the amount in the To Country currency. | Pass |
+| Convert button | Button is present and changes the amount in the To Country currency. | Pass |
+| City attractions and prices search |  | |
+| City input | Inputting a city name and clicking search button changes the search results. | Pass |
+| Search Price button | Button is present and redirects user to the search results to the google search results with the name of an attraction and price options. | Pass |
+| Footer |  | |
+| Brand logo | Brand logo is present and redirects user to the top of the page. | Pass |
+| Collaborators links | Links are present and redirect user to the collaborators GitHub profiles. | Pass |
 ### Code Validation:
 
 #### HTML Validation
