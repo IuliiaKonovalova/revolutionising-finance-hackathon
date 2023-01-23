@@ -289,6 +289,15 @@ The responsiveness report was created using [Responsive Viewer](https://chrome.g
 
 - [responsiveness report](documentation/testing/responsiveness_report.pdf)
 
+### Compatibility
+
+- The website has been tested on the following browsers:
+    - Chrome
+    - Firefox
+    - Brave
+
+- [compatibility report](documentation/testing/compatibility_report.pdf)
+
 ## Development and deployment
 
 The development environment used for this project was GitPod and VSCode. 
